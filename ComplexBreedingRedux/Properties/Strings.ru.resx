@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PluginLoaded" xml:space="preserve">
+    <value>{0} v{1} загружен!</value>
+  </data>
+  <data name="PluginDisabled" xml:space="preserve">
+    <value>{0} отключён в конфигурации.</value>
+  </data>
+  <data name="Config_Enabled" xml:space="preserve">
+    <value>Включить или выключить плагин (требуется перезапуск)</value>
+  </data>
+  <data name="Config_AutoSellFemaleMode" xml:space="preserve">
+    <value>Режим авто-продажи для женских потомков</value>
+  </data>
+  <data name="Config_AutoSellMaleMode" xml:space="preserve">
+    <value>Режим авто-продажи для мужских потомков</value>
+  </data>
+  <data name="AutoSell_SellAll" xml:space="preserve">
+    <value>Продать всех</value>
+  </data>
+  <data name="AutoSell_DoNotSellAtLeastEqual" xml:space="preserve">
+    <value>Продавать с низшим уровнем эссенции</value>
+  </data>
+  <data name="AutoSell_DoNotSellBetter" xml:space="preserve">
+    <value>Продавать с равным или низшим уровнем эссенции</value>
+  </data>
+  <data name="AutoSell_DoNotSellAnyone" xml:space="preserve">
+    <value>Не продавать никого</value>
+  </data>
+  <data name="AutoSell_EvoNoFilter" xml:space="preserve">
+    <value>Без фильтра</value>
+  </data>
+  <data name="AutoSell_EvoDoNotSell" xml:space="preserve">
+    <value>Не продавать эволюции</value>
+  </data>
+  <data name="AutoSell_EvoCustom" xml:space="preserve">
+    <value>Пользовательский</value>
+  </data>
+  <data name="Config_AutoSellFemaleEvoFilter" xml:space="preserve">
+    <value>Фильтр эволюции для женских потомков</value>
+  </data>
+  <data name="Config_AutoSellDegradation" xml:space="preserve">
+    <value>Продажа деградировавших женских потомков</value>
+  </data>
+  <data name="Config_AutoMilkUp" xml:space="preserve">
+    <value>Автоматически использовать молоко, если вид требует его для роста</value>
+  </data>
+  <data name="Config_StartingSlaveSpecies" xml:space="preserve">
+    <value>Первая купленная рабыня будет указанного вида</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Name" xml:space="preserve">
+    <value>Осквернённое лоно</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Desc" xml:space="preserve">
+    <value>При неудачном зачатии — восстановление 20% здоровья</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Name" xml:space="preserve">
+    <value>Первобытный инстинкт</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Desc" xml:space="preserve">
+    <value>Может заниматься сексом многократно подряд без отдыха</value>
+  </data>
+  <data name="Trait_RobustBloodline_Name" xml:space="preserve">
+    <value>Крепкая кровь</value>
+  </data>
+  <data name="Trait_RobustBloodline_Desc" xml:space="preserve">
+    <value>Снижает шанс потери уровня эссенции при наследовании на 75%</value>
+  </data>
+  <data name="Trait_UndyingSoul_Name" xml:space="preserve">
+    <value>Бессмертная душа</value>
+  </data>
+  <data name="Trait_UndyingSoul_Desc" xml:space="preserve">
+    <value>После смерти — 75% шанс воскрешения каждый день</value>
+  </data>
+  <data name="Trait_ViralResilience_Name" xml:space="preserve">
+    <value>Вирусная стойкость</value>
+  </data>
+  <data name="Trait_ViralResilience_Desc" xml:space="preserve">
+    <value>Абсолютный иммунитет к венерическим заболеваниям</value>
+  </data>
+  <data name="Profession_Artificer_Name" xml:space="preserve">
+    <value>Артифицер</value>
+  </data>
+  <data name="Profession_Artificer_Desc" xml:space="preserve">
+    <value>Искусный ремесленник, создающий магические предметы и насыщающий их тайной энергией</value>
+  </data>
+  <data name="Profession_Blacksmith_Name" xml:space="preserve">
+    <value>Кузнец</value>
+  </data>
+  <data name="Profession_Blacksmith_Desc" xml:space="preserve">
+    <value>Металлург, создающий изделия из кованого железа или стали</value>
+  </data>
+  <data name="Profession_Cultist_Name" xml:space="preserve">
+    <value>Культистка</value>
+  </data>
+  <data name="Profession_Cultist_Desc" xml:space="preserve">
+    <value>Участница тёмного религиозного культа</value>
+  </data>
+  <data name="Profession_Farmhand_Name" xml:space="preserve">
+    <value>Батрачка</value>
+  </data>
+  <data name="Profession_Farmhand_Desc" xml:space="preserve">
+    <value>Простая помощница на полях</value>
+  </data>
+  <data name="Profession_Hunter_Name" xml:space="preserve">
+    <value>Охотница</value>
+  </data>
+  <data name="Profession_Hunter_Desc" xml:space="preserve">
+    <value>Охотится на животных ради пропитания и продуктов</value>
+  </data>
+  <data name="Profession_Knight_Name" xml:space="preserve">
+    <value>Рыцарь</value>
+  </data>
+  <data name="Profession_Knight_Desc" xml:space="preserve">
+    <value>Гордый, опытный боец ближнего боя во имя чести и рыцарства</value>
+  </data>
+  <data name="Profession_Maid_Name" xml:space="preserve">
+    <value>Горничная</value>
+  </data>
+  <data name="Profession_Maid_Desc" xml:space="preserve">
+    <value>Отвечает за чистоту и порядок в комнатах</value>
+  </data>
+  <data name="Profession_Paladin_Name" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="Profession_Paladin_Desc" xml:space="preserve">
+    <value>Святой рыцарь, сражающийся во имя добра и порядка</value>
+  </data>
+  <data name="Profession_Priest_Name" xml:space="preserve">
+    <value>Жрица</value>
+  </data>
+  <data name="Profession_Priest_Desc" xml:space="preserve">
+    <value>Духовный лидер и целитель</value>
+  </data>
+  <data name="Profession_Princess_Name" xml:space="preserve">
+    <value>Принцесса</value>
+  </data>
+  <data name="Profession_Princess_Desc" xml:space="preserve">
+    <value>Дочь короля из далёкой земли</value>
+  </data>
+  <data name="Profession_Warrior_Name" xml:space="preserve">
+    <value>Воительница</value>
+  </data>
+  <data name="Profession_Warrior_Desc" xml:space="preserve">
+    <value>Мощный боец ближнего боя, предпочитающий вступать в ближний контакт с врагом</value>
+  </data>
+  <data name="Profession_Witch_Name" xml:space="preserve">
+    <value>Ведьма</value>
+  </data>
+  <data name="Profession_Witch_Desc" xml:space="preserve">
+    <value>Использует магию природы для заклинаний и проклятий</value>
+  </data>
+  <data name="Profession_Wizard_Name" xml:space="preserve">
+    <value>Волшебница</value>
+  </data>
+  <data name="Profession_Wizard_Desc" xml:space="preserve">
+    <value>Мудрая женщина, способная творить магические заклинания</value>
+  </data>
+  <data name="Species_Aasimar_Name" xml:space="preserve">
+    <value>Аазимар</value>
+  </data>
+  <data name="Species_Angel_Name" xml:space="preserve">
+    <value>Ангел</value>
+  </data>
+  <data name="Species_ArcticWerewolf_Name" xml:space="preserve">
+    <value>Снежный оборотень</value>
+  </data>
+  <data name="Species_Bugbear_Name" xml:space="preserve">
+    <value>Бугбер</value>
+  </data>
+  <data name="Species_Dairycow_Name" xml:space="preserve">
+    <value>Дойная корова</value>
+  </data>
+  <data name="Species_Dhampir_Name" xml:space="preserve">
+    <value>Дампир</value>
+  </data>
+  <data name="Species_FallenAngel_Name" xml:space="preserve">
+    <value>Падший ангел</value>
+  </data>
+  <data name="Species_Genasi_Name" xml:space="preserve">
+    <value>Генаси</value>
+  </data>
+  <data name="Species_MagicWererabbit_Name" xml:space="preserve">
+    <value>Магический зайколюд</value>
+  </data>
+  <data name="Species_MoonElf_Name" xml:space="preserve">
+    <value>Лунная эльфийка</value>
+  </data>
+  <data name="Species_Weretiger_Name" xml:space="preserve">
+    <value>Тигролюд</value>
+  </data>
+  <data name="Species_Devil_Name" xml:space="preserve">
+    <value>Демон</value>
+  </data>
+  <data name="Species_Dracolich_Name" xml:space="preserve">
+    <value>Драколич</value>
+  </data>
+  <data name="Species_Dragon_Name" xml:space="preserve">
+    <value>Дракон</value>
+  </data>
+  <data name="Species_Drake_Name" xml:space="preserve">
+    <value>Дрейк</value>
+  </data>
+  <data name="Species_Drow_Name" xml:space="preserve">
+    <value>Дроу</value>
+  </data>
+  <data name="Species_Fairy_Name" xml:space="preserve">
+    <value>Фея</value>
+  </data>
+  <data name="Species_Ghoul_Name" xml:space="preserve">
+    <value>Гуль</value>
+  </data>
+  <data name="Species_Goblin_Name" xml:space="preserve">
+    <value>Гоблин</value>
+  </data>
+  <data name="Species_Golem_Name" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="Species_Hobgoblin_Name" xml:space="preserve">
+    <value>Хобгоблин</value>
+  </data>
+  <data name="Species_Horse_Name" xml:space="preserve">
+    <value>Лошадь</value>
+  </data>
+  <data name="Species_Kitsune_Name" xml:space="preserve">
+    <value>Кицунэ</value>
+  </data>
+  <data name="Species_Mermaid_Name" xml:space="preserve">
+    <value>Русалка</value>
+  </data>
+  <data name="Species_Minotaur_Name" xml:space="preserve">
+    <value>Минотавр</value>
+  </data>
+  <data name="Species_Nekomata_Name" xml:space="preserve">
+    <value>Бес</value>
+  </data>
+  <data name="Species_Orc_Name" xml:space="preserve">
+    <value>Орк</value>
+  </data>
+  <data name="Species_Redcap_Name" xml:space="preserve">
+    <value>Красный колпак</value>
+  </data>
+  <data name="Species_Salamander_Name" xml:space="preserve">
+    <value>Саламандра</value>
+  </data>
+  <data name="Species_Slime_Name" xml:space="preserve">
+    <value>Слизь</value>
+  </data>
+  <data name="Species_Succubus_Name" xml:space="preserve">
+    <value>Суккуб</value>
+  </data>
+  <data name="Species_Vampire_Name" xml:space="preserve">
+    <value>Вампир</value>
+  </data>
+  <data name="Species_Wererabbit_Name" xml:space="preserve">
+    <value>Зайколюд</value>
+  </data>
+  <data name="Species_Werewolf_Name" xml:space="preserve">
+    <value>Оборотень</value>
+  </data>
+  <data name="SpeciesCore_Elf_Name" xml:space="preserve">
+    <value>Эльф</value>
+  </data>
+  <data name="SpeciesCore_Gnome_Name" xml:space="preserve">
+    <value>Гном</value>
+  </data>
+  <data name="SpeciesCore_Human_Name" xml:space="preserve">
+    <value>Человек</value>
+  </data>
+  <data name="SpeciesCore_Imp_Name" xml:space="preserve">
+    <value>Нэко</value>
+  </data>
+  <data name="SpeciesCore_Lizard_Name" xml:space="preserve">
+    <value>Драконид</value>
+  </data>
+  <data name="SpeciesCore_Rabbit_Name" xml:space="preserve">
+    <value>Узаги</value>
+  </data>
+  <data name="SpeciesCore_Sheep_Name" xml:space="preserve">
+    <value>Хитсуджи</value>
+  </data>
+  <data name="SpeciesCore_Wolf_Name" xml:space="preserve">
+    <value>Ину</value>
+  </data>
+  <data name="Attr_ConceptionRate" xml:space="preserve">
+    <value>Вероятность зачатия</value>
+  </data>
+  <data name="Attr_SexTime" xml:space="preserve">
+    <value>Время секса</value>
+  </data>
+  <data name="Attr_GrowthTime" xml:space="preserve">
+    <value>Время роста</value>
+  </data>
+  <data name="Attr_MaintenanceCost" xml:space="preserve">
+    <value>Стоимость содержания</value>
+  </data>
+  <data name="Attr_DamageDuringSex" xml:space="preserve">
+    <value>Урон при сексе</value>
+  </data>
+  <data name="Attr_MilkQuality" xml:space="preserve">
+    <value>Качество молока</value>
+  </data>
+  <data name="Attr_MaxBirthCount" xml:space="preserve">
+    <value>Макс. рождений</value>
+  </data>
+  <data name="Attr_MaxConcurrentConceptions" xml:space="preserve">
+    <value>Макс. одновременных зачатий</value>
+  </data>
+  <data name="Attr_DamageDuringPregnancy" xml:space="preserve">
+    <value>Урон при беременности</value>
+  </data>
+  <data name="Attr_Crest" xml:space="preserve">
+    <value>Герб</value>
+  </data>
+  <data name="Attr_RemoveCrest" xml:space="preserve">
+    <value>Убрать герб</value>
+  </data>
+  <data name="Attr_OldMilk" xml:space="preserve">
+    <value>Старое молоко</value>
+  </data>
+  <data name="Label_Profession" xml:space="preserve">
+    <value>Профессия:</value>
+  </data>
+  <data name="Label_Trait" xml:space="preserve">
+    <value>Черта:</value>
+  </data>
+  <data name="Tooltip_Allow" xml:space="preserve">
+    <value>Позволяет:</value>
+  </data>
+  <data name="Tooltip_HaveSlavesOffspringWith" xml:space="preserve">
+    <value>иметь потомство рабынь с:</value>
+  </data>
+  <data name="Tooltip_Characteristics" xml:space="preserve">
+    <value>Характеристики:</value>
+  </data>
+  <data name="Tooltip_Affecting" xml:space="preserve">
+    <value>Влияет на:</value>
+  </data>
+  <data name="Tooltip_Inheritance" xml:space="preserve">
+    <value>Наследование:</value>
+  </data>
+  <data name="Tooltip_Slave" xml:space="preserve">
+    <value>рабыня</value>
+  </data>
+  <data name="Tooltip_Monster" xml:space="preserve">
+    <value>монстр</value>
+  </data>
+  <data name="Tooltip_Tier" xml:space="preserve">
+    <value>Уровень:</value>
+  </data>
+  <data name="Tooltip_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Tooltip_No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="Tooltip_Probability" xml:space="preserve">
+    <value>Вероятность</value>
+  </data>
+  <data name="Tooltip_HaveEssences" xml:space="preserve">
+    <value>наличие эссенций:</value>
+  </data>
+  <data name="Tooltip_IsSpecies" xml:space="preserve">
+    <value>вид:</value>
+  </data>
+  <data name="Tooltip_OneParentHasTrait" xml:space="preserve">
+    <value>один из родителей имеет эту черту</value>
+  </data>
+  <data name="Tooltip_EmergenceRequirements" xml:space="preserve">
+    <value>Условия появления:</value>
+  </data>
+  <data name="Tooltip_Or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="Tooltip_Teachable" xml:space="preserve">
+    <value>Обучаемо:</value>
+  </data>
+  <data name="Tooltip_DailyInClassroom" xml:space="preserve">
+    <value>Ежедневно в классе:</value>
+  </data>
+  <data name="Tooltip_Work" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="Tooltip_WorkAlways" xml:space="preserve">
+    <value>всегда</value>
+  </data>
+  <data name="Tooltip_WorkDepraved" xml:space="preserve">
+    <value>развратная</value>
+  </data>
+  <data name="Tooltip_WorkNotDepraved" xml:space="preserve">
+    <value>неразвратная</value>
+  </data>
+  <data name="Job_RoomCleaning" xml:space="preserve">
+    <value> убрать {0} комнат</value>
+  </data>
+  <data name="Job_EarningMoney" xml:space="preserve">
+    <value> заработать {0}g-{1}g</value>
+  </data>
+  <data name="Job_Healing" xml:space="preserve">
+    <value> вылечить {0}%-{1}% здоровья случайной рабыни</value>
+  </data>
+  <data name="Job_SummonPixy" xml:space="preserve">
+    <value> призвать {0} пикси</value>
+  </data>
+  <data name="Job_HelpingNiel" xml:space="preserve">
+    <value> добавить {0} симпатии Нила</value>
+  </data>
+  <data name="Job_HelpingFlora" xml:space="preserve">
+    <value> добавить {0} симпатии Флоры</value>
+  </data>
+  <data name="Job_HelpingBarbara" xml:space="preserve">
+    <value> добавить {0} симпатии Барбары</value>
+  </data>
+  <data name="Job_Corruption" xml:space="preserve">
+    <value> добавить {0} разврата случайной не полностью развращённой рабыне</value>
+  </data>
+  <data name="Job_Cleansing" xml:space="preserve">
+    <value> убрать {0} разврата у случайной не полностью развращённой рабыни</value>
+  </data>
+  <data name="Job_CreateGolem" xml:space="preserve">
+    <value>Призвать элементаля</value>
+  </data>
+  <data name="Tooltip_Wealth" xml:space="preserve">
+    <value>Богатство:</value>
+  </data>
+  <data name="Tooltip_VenerealDisease" xml:space="preserve">
+    <value>Венерическая болезнь:</value>
+  </data>
+  <data name="Tooltip_Preferences" xml:space="preserve">
+    <value>Предпочтения:</value>
+  </data>
+  <data name="Tooltip_Reputation" xml:space="preserve">
+    <value>Репутация:</value>
+  </data>
+  <data name="Pref_Rarity" xml:space="preserve">
+    <value>Редкость: не менее</value>
+  </data>
+  <data name="Pref_Personality" xml:space="preserve">
+    <value>Личность:</value>
+  </data>
+  <data name="Pref_NotDepraved" xml:space="preserve">
+    <value>Неразвратная</value>
+  </data>
+  <data name="Pref_Depraved" xml:space="preserve">
+    <value>Развратная</value>
+  </data>
+  <data name="Pref_Height" xml:space="preserve">
+    <value>Рост:</value>
+  </data>
+  <data name="Pref_HeightSmall" xml:space="preserve">
+    <value>Маленький</value>
+  </data>
+  <data name="Pref_HeightAverage" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="Pref_Breasts" xml:space="preserve">
+    <value>Грудь:</value>
+  </data>
+  <data name="Pref_BreastsFlat" xml:space="preserve">
+    <value>Плоская</value>
+  </data>
+  <data name="Pref_BreastsSmall" xml:space="preserve">
+    <value>Маленькая</value>
+  </data>
+  <data name="Pref_BreastsAverage" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="Pref_BreastsBig" xml:space="preserve">
+    <value>Большая</value>
+  </data>
+  <data name="Pref_BreastsHuge" xml:space="preserve">
+    <value>Огромная</value>
+  </data>
+  <data name="Pref_BreastsExtra" xml:space="preserve">
+    <value>Невероятная</value>
+  </data>
+  <data name="Tooltip_HealthRegen" xml:space="preserve">
+    <value>Регенерация здоровья:</value>
+  </data>
+  <data name="Tooltip_MilkRate" xml:space="preserve">
+    <value>Скорость производства молока:</value>
+  </data>
+  <data name="Tooltip_BreastsCapacity" xml:space="preserve">
+    <value>Ёмкость груди:</value>
+  </data>
+  <data name="Tooltip_OwnSpeciesBirth" xml:space="preserve">
+    <value>Рождение своего вида:</value>
+  </data>
+  <data name="Tooltip_LowerSpeciesChanceBirth" xml:space="preserve">
+    <value>Шанс рождения низшего вида:</value>
+  </data>
+  <data name="Tooltip_ConceptionFailureChance" xml:space="preserve">
+    <value>Шанс неудачного зачатия:</value>
+  </data>
+  <data name="Tooltip_PossibleSpecies" xml:space="preserve">
+    <value>Возможные виды:</value>
+  </data>
+  <data name="Tooltip_Males" xml:space="preserve">
+    <value>Самцы:</value>
+  </data>
+  <data name="Tooltip_Base" xml:space="preserve">
+    <value>база</value>
+  </data>
+  <data name="Tooltip_HasDisease" xml:space="preserve">
+    <value>заражена болезнью</value>
+  </data>
+  <data name="Tooltip_HealthLow" xml:space="preserve">
+    <value>здоровье &lt; 25%</value>
+  </data>
+  <data name="Tooltip_HealthHigh" xml:space="preserve">
+    <value>здоровье &gt; 75%</value>
+  </data>
+  <data name="Tooltip_Depravation" xml:space="preserve">
+    <value>разврат</value>
+  </data>
+  <data name="State_Young" xml:space="preserve">
+    <value>юная</value>
+  </data>
+  <data name="State_SlavePrice" xml:space="preserve">
+    <value>Цена рабыни:</value>
+  </data>
+  <data name="State_MilkPrice" xml:space="preserve">
+    <value>Цена молока:</value>
+  </data>
+  <data name="State_Breasts" xml:space="preserve">
+    <value>Грудь:</value>
+  </data>
+  <data name="State_Milk" xml:space="preserve">
+    <value>Молоко:</value>
+  </data>
+  <data name="State_Womb" xml:space="preserve">
+    <value>Матка:</value>
+  </data>
+  <data name="State_WombStretch" xml:space="preserve">
+    <value>Растяжение:</value>
+  </data>
+  <data name="Trait_Upgraded" xml:space="preserve">
+    <value>Улучшена</value>
+  </data>
+  <data name="Trait_Downgraded" xml:space="preserve">
+    <value>Ухудшена</value>
+  </data>
+  <data name="Item_PixieSummonDust" xml:space="preserve">
+    <value>Пыль призыва пикси</value>
+  </data>
+  <data name="Attr_BreastsCapacity" xml:space="preserve">
+    <value>Éмкость груди</value>
+  </data>
+  <data name="Attr_MaxHealth" xml:space="preserve">
+    <value>Макс. здоровье</value>
+  </data>
+  <data name="Attr_MilkProductionRate" xml:space="preserve">
+    <value>Скорость молока</value>
+  </data>
+  <data name="Attr_DepravationGain" xml:space="preserve">
+    <value>Прирост разврата</value>
+  </data>
+  <data name="State_MilkPriceUnit" xml:space="preserve">
+    <value>g/бут.</value>
+  </data>
+  <data name="Breast_Flat" xml:space="preserve">
+    <value>Плоская</value>
+  </data>
+  <data name="Breast_Small" xml:space="preserve">
+    <value>Маленькая</value>
+  </data>
+  <data name="Breast_Average" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="Breast_Big" xml:space="preserve">
+    <value>Большая</value>
+  </data>
+  <data name="Breast_Huge" xml:space="preserve">
+    <value>Огромная</value>
+  </data>
+  <data name="Breast_Extra" xml:space="preserve">
+    <value>Экстра</value>
+  </data>
+  <data name="Womb_Small" xml:space="preserve">
+    <value>Маленькая</value>
+  </data>
+  <data name="Womb_Average" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="Womb_Big" xml:space="preserve">
+    <value>Большая</value>
+  </data>
+  <data name="Womb_Huge" xml:space="preserve">
+    <value>Огромная</value>
+  </data>
+  <data name="Womb_Enormous" xml:space="preserve">
+    <value>Колоссальная</value>
+  </data>
+  <data name="Tier_Common" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Tier_Uncommon" xml:space="preserve">
+    <value>Необычный</value>
+  </data>
+  <data name="Tier_Rare" xml:space="preserve">
+    <value>Редкий</value>
+  </data>
+  <data name="Tier_Epic" xml:space="preserve">
+    <value>Эпический</value>
+  </data>
+  <data name="Tier_Legendary" xml:space="preserve">
+    <value>Легендарный</value>
+  </data>
+  <data name="JobName_Foraging" xml:space="preserve">
+    <value>Поиск пищи</value>
+  </data>
+  <data name="JobName_Hunting" xml:space="preserve">
+    <value>Охота</value>
+  </data>
+  <data name="JobName_CraftingTools" xml:space="preserve">
+    <value>Изготовление инструментов</value>
+  </data>
+  <data name="JobName_CraftingArtifacts" xml:space="preserve">
+    <value>Изготовление артефактов</value>
+  </data>
+  <data name="JobName_Cleaning" xml:space="preserve">
+    <value>Уборка комнат</value>
+  </data>
+  <data name="JobName_Healing" xml:space="preserve">
+    <value>Перевязка ран</value>
+  </data>
+  <data name="JobName_HealingSpell" xml:space="preserve">
+    <value>Целительные заклинания</value>
+  </data>
+  <data name="JobName_SummonPixy" xml:space="preserve">
+    <value>Призыв фамильяров</value>
+  </data>
+  <data name="JobName_HelpingNiel" xml:space="preserve">
+    <value>Помощь в лаборатории</value>
+  </data>
+  <data name="JobName_HelpingFlora" xml:space="preserve">
+    <value>Помощь в клинике</value>
+  </data>
+  <data name="JobName_HelpingBarbara" xml:space="preserve">
+    <value>Помощь в мастерской</value>
+  </data>
+  <data name="JobName_Adventuring" xml:space="preserve">
+    <value>Приключения</value>
+  </data>
+  <data name="JobName_Witchcraft" xml:space="preserve">
+    <value>Услуги ведьмы</value>
+  </data>
+  <data name="JobName_WitchcraftBig" xml:space="preserve">
+    <value>Продажа проклятий</value>
+  </data>
+  <data name="JobName_PreachingCorruption" xml:space="preserve">
+    <value>Проповедь разврата</value>
+  </data>
+  <data name="JobName_CleansingDepravation" xml:space="preserve">
+    <value>Очищение души</value>
+  </data>
+  <data name="JobName_CreateGolem" xml:space="preserve">
+    <value>Призвать элементаля</value>
+  </data>
+  <data name="Work_Prefix" xml:space="preserve">
+    <value>[Работа]</value>
+  </data>
+  <data name="Work_CleanedRoom" xml:space="preserve">
+    <value>Убрано {0} ({1})</value>
+  </data>
+  <data name="Work_HealedSlave" xml:space="preserve">
+    <value>Вылечено {0}% здоровья от {1} ({2})</value>
+  </data>
+  <data name="Work_AddedDepravation" xml:space="preserve">
+    <value>Добавлено {0} разврата от {1} ({2})</value>
+  </data>
+  <data name="Work_RemovedDepravation" xml:space="preserve">
+    <value>Убрано {0} разврата от {1} ({2})</value>
+  </data>
+  <data name="Item_PixySummoned" xml:space="preserve">
+    <value>Пикси призвана!</value>
+  </data>
+  <data name="Popup_WombDilated" xml:space="preserve">
+    <value>Матка расширена!</value>
+  </data>
+  <data name="Popup_UndyingSoul" xml:space="preserve">
+    <value>Бессмертная душа</value>
+  </data>
+  <data name="Popup_DepravationIgnored" xml:space="preserve">
+    <value>Проигнорировано ({0})</value>
+  </data>
+  <data name="Msg_CountIsZero" xml:space="preserve">
+    <value>Количество предмета равно нулю.</value>
+  </data>
+  <data name="RoomSkill_HunterCampDisplay" xml:space="preserve">
+    <value>Охотничий лагерь. Сила: {0}</value>
+  </data>
+  <data name="HunterCamp_CapturedLog" xml:space="preserve">
+    <value>[Охотничий лагерь] {0} захватил новую рабыню: {1} ({2} / {3}) — золото {4}, сила {5}</value>
+  </data>
+  <data name="HunterCamp_PopCaptured" xml:space="preserve">
+    <value>Рабыня захвачена!</value>
+  </data>
+  <data name="HunterCamp_SpawnLog" xml:space="preserve">
+    <value>[Охотничий лагерь] Захвачена новая рабыня: {0} (золото -{1})</value>
+  </data>
+  <data name="HunterCamp_SpawnPop" xml:space="preserve">
+    <value>Рабыня захвачена!</value>
+  </data>
+  <data name="HunterCamp_EscapeLog" xml:space="preserve">
+    <value>[Охотничий лагерь] Пленница {0} сбежала! Потеряно золота: {1}</value>
+  </data>
+  <data name="HunterCamp_EscapePop" xml:space="preserve">
+    <value>-{0}</value>
+  </data>
+  <data name="Profession_Brigand_Name" xml:space="preserve">
+    <value>Разбойница</value>
+  </data>
+  <data name="Profession_Brigand_Desc" xml:space="preserve">
+    <value>Преступница с диких земель</value>
+  </data>
+  <data name="Profession_Assassin_Name" xml:space="preserve">
+    <value>Убийца</value>
+  </data>
+  <data name="Profession_Assassin_Desc" xml:space="preserve">
+    <value>Убийца, искусная в обращении с ядами.</value>
+  </data>
+  <data name="Profession_Thief_Name" xml:space="preserve">
+    <value>Воровка</value>
+  </data>
+  <data name="Profession_Thief_Desc" xml:space="preserve">
+    <value>Ловкая преступница</value>
+  </data>
+  <data name="Profession_Marauder_Name" xml:space="preserve">
+    <value>Мародёр</value>
+  </data>
+  <data name="Profession_Marauder_Desc" xml:space="preserve">
+    <value>Преступница, отлично умеющая грабить</value>
+  </data>
+  <data name="Profession_Plunderer_Name" xml:space="preserve">
+    <value>Грабительница</value>
+  </data>
+  <data name="Profession_Plunderer_Desc" xml:space="preserve">
+    <value>Чрезвычайно сильная преступница</value>
+  </data>
+  <data name="Profession_Apothecary_Name" xml:space="preserve">
+    <value>Аптекарь</value>
+  </data>
+  <data name="Profession_Apothecary_Desc" xml:space="preserve">
+    <value>Изготовительница лекарств, знающая толк в травах.</value>
+  </data>
+  <data name="Profession_DarkPriest_Name" xml:space="preserve">
+    <value>Тёмная жрица</value>
+  </data>
+  <data name="Profession_DarkPriest_Desc" xml:space="preserve">
+    <value>Заклинательница, повелевающая силами тьмы.</value>
+  </data>
+  <data name="Profession_Merchant_Name" xml:space="preserve">
+    <value>Купец</value>
+  </data>
+  <data name="Profession_Merchant_Desc" xml:space="preserve">
+    <value>Ведёт различную коммерческую деятельность.</value>
+  </data>
+  <data name="Profession_Alchemist_Name" xml:space="preserve">
+    <value>Алхимик</value>
+  </data>
+  <data name="Profession_Alchemist_Desc" xml:space="preserve">
+    <value>Создаёт удивительные алхимические предметы.</value>
+  </data>
+  <data name="Profession_Hero_Name" xml:space="preserve">
+    <value>Героиня</value>
+  </data>
+  <data name="Profession_Hero_Desc" xml:space="preserve">
+    <value>Воительница, обладающая чудесной силой.</value>
+  </data>
+  <data name="Profession_Trainer_Name" xml:space="preserve">
+    <value>Дрессировщица</value>
+  </data>
+  <data name="Profession_Trainer_Desc" xml:space="preserve">
+    <value>Отличная помощница чернорыночного торговца</value>
+  </data>
+  <data name="JobName_PotionCrafting" xml:space="preserve">
+    <value>Зельеварение</value>
+  </data>
+  <data name="JobName_WitchcraftPotion" xml:space="preserve">
+    <value>Ведьмины зелья</value>
+  </data>
+  <data name="JobName_Commerce" xml:space="preserve">
+    <value>Торговля</value>
+  </data>
+  <data name="JobName_AbilitySharing" xml:space="preserve">
+    <value>Передача сил</value>
+  </data>
+  <data name="JobName_DepravedTraining" xml:space="preserve">
+    <value>Развратная дрессировка</value>
+  </data>
+  <data name="JobName_DarkRitual" xml:space="preserve">
+    <value>Тёмный ритуал</value>
+  </data>
+  <data name="JobName_HormoneExtraction" xml:space="preserve">
+    <value>Извлечение гормонов</value>
+  </data>
+  <data name="Job_ObtainItem" xml:space="preserve">
+    <value> Получен предмет: {0}</value>
+  </data>
+  <data name="Job_RemoveShield" xml:space="preserve">
+    <value> Снять {0} очков Защитного барьера у случайной рабыни</value>
+  </data>
+  <data name="Work_RemovedShield" xml:space="preserve">
+    <value>{1} ({2}) сняла {0} очков Защитного барьера</value>
+  </data>
+  <data name="ItemName_BodyFluid" xml:space="preserve">
+    <value>Биожидкость</value>
+  </data>
+  <data name="ItemName_GoblinSemen" xml:space="preserve">
+    <value>Семя гоблина</value>
+  </data>
+  <data name="ItemName_OrcHeart" xml:space="preserve">
+    <value>Сердце орка</value>
+  </data>
+  <data name="ItemName_WerewolfTail" xml:space="preserve">
+    <value>Хвост оборотня</value>
+  </data>
+  <data name="ItemName_DragonTailMeat" xml:space="preserve">
+    <value>Мясо драконьего хвоста</value>
+  </data>
+  <data name="ItemName_DawrfHeart" xml:space="preserve">
+    <value>Сердце гнома</value>
+  </data>
+  <data name="ItemName_HealthRecoveryInjection" xml:space="preserve">
+    <value>Инъекция восстановления сил</value>
+  </data>
+  <data name="ItemName_MammaryGlandRecoveryInjection" xml:space="preserve">
+    <value>Инъекция восстановления молочных желёз</value>
+  </data>
+  <data name="ItemName_OvumRecoveryInjection" xml:space="preserve">
+    <value>Инъекция восстановления яичников</value>
+  </data>
+  <data name="ItemName_Item_Aphrodisiac" xml:space="preserve">
+    <value>Афродизиак</value>
+  </data>
+  <data name="ItemName_Item_ViOgra" xml:space="preserve">
+    <value>ВиОгра</value>
+  </data>
+  <data name="ItemName_Item_TraitUpgradePill" xml:space="preserve">
+    <value>Таблетка улучшения черт</value>
+  </data>
+  <data name="Profession_Brigand_Passive" xml:space="preserve">
+    <value>Сила +10%. Свойство монстра: +1 секс до побега рабынь в Охотничьем лагере</value>
+  </data>
+  <data name="Profession_Thief_Passive" xml:space="preserve">
+    <value>Сила +20%. Свойство монстра: +2 секса до побега рабынь в Охотничьем лагере</value>
+  </data>
+  <data name="Profession_Marauder_Passive" xml:space="preserve">
+    <value>Сила +40%. Свойство монстра: +3 секса до побега рабынь в Охотничьем лагере</value>
+  </data>
+  <data name="Profession_Plunderer_Passive" xml:space="preserve">
+    <value>Сила +60%. Свойство монстра: +4 секса до побега рабынь в Охотничьем лагере</value>
+  </data>
+  <data name="Profession_Warrior_Passive" xml:space="preserve">
+    <value>Сила +20%</value>
+  </data>
+  <data name="Profession_Hunter_Passive" xml:space="preserve">
+    <value>Сила +20%</value>
+  </data>
+  <data name="Profession_Knight_Passive" xml:space="preserve">
+    <value>Сила +40%</value>
+  </data>
+  <data name="Profession_Princess_Passive" xml:space="preserve">
+    <value>Когда принцесса обслуживает клиентов в борделе, доход и репутация фракции умножаются на 10 (обычные деньги и репутация не изменяются)</value>
+  </data>
+  <data name="Profession_Trainer_Passive" xml:space="preserve">
+    <value>Сила +40%. Свойство монстра: рабыни в сексе с ним быстрее набирают прогресс; +4 секса до побега рабынь в Охотничьем лагере</value>
+  </data>
+  <data name="Override_Trait108_Name" xml:space="preserve">
+    <value>Иммунитет к болезням</value>
+  </data>
+  <data name="Override_Trait108_Text" xml:space="preserve">
+    <value>У неё крепкое здоровье: она всегда бодра и полна сил.&lt;BR&gt;Она абсолютно невосприимчива к венерическим заболеваниям.</value>
+  </data>
+  <data name="Override_Trait71_Name" xml:space="preserve">
+    <value>Потустороннее обаяние</value>
+  </data>
+  <data name="Override_Trait71_Tooltip" xml:space="preserve">
+    <value>Она обладает потусторонним обаянием. &lt;BR&gt;В борделе доход увеличивается в 5-10 раз.</value>
+  </data>
+  <data name="Override_Item127_Text" xml:space="preserve">
+    <value>После применения предмета все семяизвержения, которые получает рабыня, происходят внутрь, а её чувствительность повышается.&lt;BR&gt;Продолжительность: 1 день.</value>
+  </data>
+  <data name="Bloodline_Demon_Desc" xml:space="preserve">
+    <value>Родословная, разъеденная демонической силой.</value>
+  </data>
+  <data name="Bloodline_Demon_Name" xml:space="preserve">
+    <value>Демоническая родословная</value>
+  </data>
+  <data name="Bloodline_Divine_Desc" xml:space="preserve">
+    <value>Родословная, благословлённая божественной силой.</value>
+  </data>
+  <data name="Bloodline_Divine_Name" xml:space="preserve">
+    <value>Божественная родословная</value>
+  </data>
+  <data name="Bloodline_Dragon_Desc" xml:space="preserve">
+    <value>Родословная, усиленная мощью драконов.</value>
+  </data>
+  <data name="Bloodline_Dragon_Name" xml:space="preserve">
+    <value>Драконья родословная</value>
+  </data>
+  <data name="Bloodline_Elemental_Desc" xml:space="preserve">
+    <value>Родословная, слитая с силой стихий.</value>
+  </data>
+  <data name="Bloodline_Elemental_Name" xml:space="preserve">
+    <value>Элементальная родословная</value>
+  </data>
+  <data name="Bloodline_Line_Conception" xml:space="preserve">
+    <value>Вероятность зачатия {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_FactionReputation" xml:space="preserve">
+    <value>В разврате: получение репутации в борделе для {0} ×{1} (+0.5 за уровень)</value>
+  </data>
+  <data name="Bloodline_Line_Food" xml:space="preserve">
+    <value>Стоимость содержания {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Growth" xml:space="preserve">
+    <value>Время роста {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MentalityCost" xml:space="preserve">
+    <value>Расход здоровья {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Milk" xml:space="preserve">
+    <value>{0}% шанс получить {1} при оргазме (+5% за уровень)</value>
+  </data>
+  <data name="Bloodline_Line_MilkDepraved" xml:space="preserve">
+    <value>{0}% шанс получить {1} при оргазме в разврате (+5% за уровень)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentality" xml:space="preserve">
+    <value>Расход здоровья {0}</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentalityPerLevel" xml:space="preserve">
+    <value>Расход здоровья {0} (+{1} за уровень)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTime" xml:space="preserve">
+    <value>Время секса {0}</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTimePerLevel" xml:space="preserve">
+    <value>Время секса {0} (+{1} с за уровень)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterShield" xml:space="preserve">
+    <value>При семяизвержении женщина теряет {0} защитного барьера за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSpeed" xml:space="preserve">
+    <value>Женщины в сексе с этим монстром: скорость прогресса секса {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MonsterStamina" xml:space="preserve">
+    <value>{0}% шанс за уровень восстановить 50% здоровья женщины при семяизвержении (сейчас: {1}%)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterUpgrade" xml:space="preserve">
+    <value>{0}% шанс за уровень запустить улучшение черты у женщины при семяизвержении (сейчас: {1}%)</value>
+  </data>
+  <data name="Bloodline_Line_SexTime" xml:space="preserve">
+    <value>Время секса {0} за уровень (сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Shield" xml:space="preserve">
+    <value>Защитный барьер {0} за уровень (только женщины, сейчас: {1})</value>
+  </data>
+  <data name="Bloodline_Magic_Desc" xml:space="preserve">
+    <value>Родословная, разъеденная магической силой.</value>
+  </data>
+  <data name="Bloodline_Magic_Name" xml:space="preserve">
+    <value>Магическая родословная</value>
+  </data>
+  <data name="Bloodline_Monster_Desc" xml:space="preserve">
+    <value>Родословная, усиленная мощью монстров.</value>
+  </data>
+  <data name="Bloodline_Monster_Name" xml:space="preserve">
+    <value>Монструозная родословная</value>
+  </data>
+  <data name="Bloodline_Nature_Desc" xml:space="preserve">
+    <value>Родословная, благословлённая силой природы.</value>
+  </data>
+  <data name="Bloodline_Nature_Name" xml:space="preserve">
+    <value>Природная родословная</value>
+  </data>
+  <data name="Bloodline_Popup_Milk" xml:space="preserve">
+    <value>Родословная: +1 {0}</value>
+  </data>
+  <data name="Bloodline_Popup_ShieldDrain" xml:space="preserve">
+    <value>Родословная ({0}): барьер -{1}</value>
+  </data>
+  <data name="Bloodline_Popup_Stamina" xml:space="preserve">
+    <value>Родословная: здоровье +50%!</value>
+  </data>
+  <data name="Bloodline_Popup_Upgrade" xml:space="preserve">
+    <value>Родословная: улучшение черты!</value>
+  </data>
+  <data name="Bloodline_Tooltip_CurrentLevel" xml:space="preserve">
+    <value>Текущий уровень: {0}</value>
+  </data>
+  <data name="Bloodline_Tooltip_Monster" xml:space="preserve">
+    <value>Эффекты монстра:</value>
+  </data>
+  <data name="Bloodline_Tooltip_PerLevel" xml:space="preserve">
+    <value>Эффекты за уровень:</value>
+  </data>
+  <data name="Bloodline_Wild_Desc" xml:space="preserve">
+    <value>Родословная, слитая с дикой мощью.</value>
+  </data>
+  <data name="Bloodline_Wild_Name" xml:space="preserve">
+    <value>Дикая родословная</value>
+  </data>
+  <data name="Combat_KilledShort" xml:space="preserve">
+    <value>&lt;color=#E07369&gt;Убит!&lt;/color&gt;</value>
+  </data>
+  <data name="Faction_Conclave_Name" xml:space="preserve">
+    <value>Тайный конклав</value>
+  </data>
+  <data name="Faction_Demonic_Name" xml:space="preserve">
+    <value>Демоническая фракция</value>
+  </data>
+  <data name="Faction_Kingdom_Name" xml:space="preserve">
+    <value>Фракция королевства</value>
+  </data>
+  <data name="Faction_Monster_Name" xml:space="preserve">
+    <value>Фракция монстров</value>
+  </data>
+  <data name="Faction_Sect_Name" xml:space="preserve">
+    <value>Религиозная секта</value>
+  </data>
+  <data name="FactionRep_Fabled" xml:space="preserve">
+    <value>&lt;color=#FFA500&gt;Легендарная&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Famous" xml:space="preserve">
+    <value>&lt;color=#930EF1&gt;Известная&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Insignificant" xml:space="preserve">
+    <value>&lt;color=#FFFFFF&gt;Незначительная&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Noteworthy" xml:space="preserve">
+    <value>&lt;color=#008000&gt;Заметная&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Obscure" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;Малоизвестная&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Reputable" xml:space="preserve">
+    <value>&lt;color=#4F8ACF&gt;Уважаемая&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Significant" xml:space="preserve">
+    <value>&lt;color=#BA65C1&gt;Значимая&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Unknown" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;Неизвестная&lt;/color&gt;</value>
+  </data>
+  <data name="ItemName_DragonianMilk" xml:space="preserve">
+    <value>Драконье молоко</value>
+  </data>
+  <data name="ItemName_DwarfMilk" xml:space="preserve">
+    <value>Гномье молоко</value>
+  </data>
+  <data name="ItemName_ElfMilk" xml:space="preserve">
+    <value>Эльфийское молоко</value>
+  </data>
+  <data name="ItemName_FurryMilk" xml:space="preserve">
+    <value>Молоко фурри</value>
+  </data>
+  <data name="ItemName_HumanMilk" xml:space="preserve">
+    <value>Человеческое молоко</value>
+  </data>
+  <data name="ItemName_HumanPheromone" xml:space="preserve">
+    <value>Человеческие феромоны</value>
+  </data>
+  <data name="ItemName_LoliMilk" xml:space="preserve">
+    <value>Молоко лоли</value>
+  </data>
+  <data name="ItemName_SmallFurryMilk" xml:space="preserve">
+    <value>Молоко лоли-фурри</value>
+  </data>
+  <data name="ItemText_LoliMilk" xml:space="preserve">
+    <value>Молоко, выдоенное из юной девочки.&lt;BR&gt;Отличается незрелым вкусом.&lt;BR&gt;Способствует росту тела. С вероятностью 15% возникает один из следующих эффектов.&lt;BR&gt;&lt;color=#FF0000&gt;Расход здоровья при сексе +0.05&lt;BR&gt;Время секса +5 секунд&lt;/color&gt;</value>
+  </data>
+  <data name="Job_ObtainItemRange" xml:space="preserve">
+    <value> Получить {0}-{1}x {2}</value>
+  </data>
+  <data name="Job_RemoveShieldRange" xml:space="preserve">
+    <value> Снять {0} очков Защитного барьера у {1}-{2} случайных рабынь</value>
+  </data>
+  <data name="Label_BloodlineTitle" xml:space="preserve">
+    <value>Черты</value>
+  </data>
+  <data name="Label_Preference" xml:space="preserve">
+    <value>Предпочтение: </value>
+  </data>
+  <data name="PrefType_Anal" xml:space="preserve">
+    <value>Анальный</value>
+  </data>
+  <data name="PrefType_Bestiality" xml:space="preserve">
+    <value>Зоофилия</value>
+  </data>
+  <data name="PrefType_Birth" xml:space="preserve">
+    <value>Рождение</value>
+  </data>
+  <data name="PrefType_Fellatio" xml:space="preserve">
+    <value>Минет</value>
+  </data>
+  <data name="PrefType_Paizuri" xml:space="preserve">
+    <value>Трах сиськами</value>
+  </data>
+  <data name="PrefType_Pussy" xml:space="preserve">
+    <value>Вагинальный</value>
+  </data>
+  <data name="PrefType_Vip" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="PrefType_Vvip" xml:space="preserve">
+    <value>VVIP</value>
+  </data>
+  <data name="Profession_Alchemist_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Assassin_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса убивает любого монстра слабее неё</value>
+  </data>
+  <data name="Profession_Assassin_Passive" xml:space="preserve">
+    <value>Сила +20%</value>
+  </data>
+  <data name="Profession_Brigand_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_DarkPriest_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Hero_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса убивает всех монстров в комнате, что слабее неё</value>
+  </data>
+  <data name="Profession_Hero_Passive" xml:space="preserve">
+    <value>Сила +80%</value>
+  </data>
+  <data name="Profession_Hunter_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Knight_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса убивает любого монстра слабее неё</value>
+  </data>
+  <data name="Profession_Marauder_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Paladin_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса убивает всех монстров в комнате, что слабее неё</value>
+  </data>
+  <data name="Profession_Paladin_Passive" xml:space="preserve">
+    <value>Сила +60%</value>
+  </data>
+  <data name="Profession_Plunderer_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Priest_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Thief_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Warrior_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить монстра слабее неё (всегда с двойной силой)</value>
+  </data>
+  <data name="Profession_Witch_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 50% шанс убить всех монстров в комнате, что слабее неё</value>
+  </data>
+  <data name="Profession_Wizard_Kill" xml:space="preserve">
+    <value>Не в разврате: при начале / окончании секса 25% шанс убить всех монстров в комнате, что слабее неё</value>
+  </data>
+  <data name="State_CombatPower" xml:space="preserve">
+    <value>Сила:</value>
+  </data>
+  <data name="State_MonsterPrice" xml:space="preserve">
+    <value>Цена монстра:</value>
+  </data>
+  <data name="State_PriceRate" xml:space="preserve">
+    <value>Курс цены:</value>
+  </data>
+</root>

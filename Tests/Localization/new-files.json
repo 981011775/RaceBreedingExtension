@@ -1,0 +1,35 @@
+{
+  "_comment": "为尚缺俄文的子模块新建 Strings.ru.resx（与既有 Strings.resx / Strings.zh-CN.resx 同结构）。",
+
+  "files": [
+    {
+      "path": "DepravedShield/Properties/Strings.ru.resx",
+      "entries": {
+        "Config_Enable": "Включить полосу прогресса секса и систему штрафов",
+        "Config_EnableLogging": "Включить отладочный лог",
+        "Config_ShowUI": "Показывать полосу прогресса секса (заменяет полосу тренировки)",
+        "Config_IncreaseDuration": "Длительность плавного прироста после семяизвержения (секунды)",
+        "Config_TotalPercent": "Общий процент добавляемого прогресса (0-100)",
+        "Config_EnableMentalityHalf": "Развращённые персонажи тратят вдвое меньше здоровья при сексе",
+        "Popup_Orgasm": "Оргазм",
+        "Popup_DeepDepravity": "Глубокий разврат",
+        "Popup_ShieldBlockedFertility": "Барьер заблокировал эффект зачатия",
+        "UI_OrgasmCount": "Счётчик оргазмов",
+        "UI_DepravedShield": "Защитный барьер"
+      }
+    },
+    {
+      "path": "VoiceReplay/Properties/Strings.ru.resx",
+      "entries": {
+        "Config_Enable": "Включить переозвучку (полностью повторяет список голосов ванильных женских персонажей, сохраняя переключение VoiceType A-G)",
+        "Config_EnableLogging": "Включить отладочный лог переозвучки"
+      }
+    },
+    {
+      "path": "TitsModCompat/Properties/Strings.ru.resx",
+      "entries": {
+        "Config_BlockUniquePortrait": "Блокировать замену Spine-портретов уникальных NPC модом TitsMod (исправляет чёрные портреты); у неуникальных персонажей остаётся анимированный Spine-портрет"
+      }
+    }
+  ]
+}

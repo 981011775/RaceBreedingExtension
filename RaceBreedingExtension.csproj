@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework>
+    <LangVersion>14.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS8618;CS8600;CS8603;CS8625;CS8622;CS8604</NoWarn>
+    <AssemblyName>RaceBreedingExtension</AssemblyName>
+    <RootNamespace>RaceBreedingExtension</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>RaceBreedingExtension</Authors>
+    <Description>Merged mod: Complex Breeding Redux + Depraved Shield</Description>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+<EmbeddedResource Update="ComplexBreedingRedux\Properties\Strings.resx">
+  <LogicalName>RaceBreedingExtension.ComplexBreedingRedux.Properties.Strings.resources</LogicalName>
+  <Generator>ResXFileCodeGenerator</Generator>
+  <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+  <CustomToolNamespace>ComplexBreedingRedux.Properties</CustomToolNamespace>
+</EmbeddedResource>
+<EmbeddedResource Update="ComplexBreedingRedux\Properties\Strings.ru.resx">
+  <LogicalName>RaceBreedingExtension.ComplexBreedingRedux.Properties.Strings.ru.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="ComplexBreedingRedux\Properties\Strings.zh-cn.resx">
+  <LogicalName>RaceBreedingExtension.ComplexBreedingRedux.Properties.Strings.zh-cn.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="DepravedShield\Properties\Strings.resx">
+  <LogicalName>RaceBreedingExtension.DepravedShield.Properties.Strings.resources</LogicalName>
+  <Generator>ResXFileCodeGenerator</Generator>
+  <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+  <CustomToolNamespace>DepravedShield.Properties</CustomToolNamespace>
+</EmbeddedResource>
+<EmbeddedResource Update="DepravedShield\Properties\Strings.zh-CN.resx">
+  <LogicalName>RaceBreedingExtension.DepravedShield.Properties.Strings.zh-CN.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="DepravedShield\Properties\Strings.ru.resx">
+  <LogicalName>RaceBreedingExtension.DepravedShield.Properties.Strings.ru.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="VoiceReplay\Properties\Strings.resx">
+  <LogicalName>RaceBreedingExtension.VoiceReplay.Properties.Strings.resources</LogicalName>
+  <Generator>ResXFileCodeGenerator</Generator>
+  <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+  <CustomToolNamespace>RaceBreedingExtension.VoiceReplay.Properties</CustomToolNamespace>
+</EmbeddedResource>
+<EmbeddedResource Update="VoiceReplay\Properties\Strings.zh-CN.resx">
+  <LogicalName>RaceBreedingExtension.VoiceReplay.Properties.Strings.zh-CN.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="VoiceReplay\Properties\Strings.ru.resx">
+  <LogicalName>RaceBreedingExtension.VoiceReplay.Properties.Strings.ru.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="TitsModCompat\Properties\Strings.resx">
+  <LogicalName>RaceBreedingExtension.TitsModCompat.Properties.Strings.resources</LogicalName>
+  <Generator>ResXFileCodeGenerator</Generator>
+  <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+  <CustomToolNamespace>RaceBreedingExtension.TitsModCompat.Properties</CustomToolNamespace>
+</EmbeddedResource>
+<EmbeddedResource Update="TitsModCompat\Properties\Strings.zh-CN.resx">
+  <LogicalName>RaceBreedingExtension.TitsModCompat.Properties.Strings.zh-CN.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+<EmbeddedResource Update="TitsModCompat\Properties\Strings.ru.resx">
+  <LogicalName>RaceBreedingExtension.TitsModCompat.Properties.Strings.ru.resources</LogicalName>
+  <DependentUpon>Strings.resx</DependentUpon>
+</EmbeddedResource>
+
+    <EmbeddedResource Include="ComplexBreedingRedux\Features\SlaveMarket\Data\slave_market_tier_prices.csv">
+      <LogicalName>ComplexBreedingRedux.Features.SlaveMarket.Data.slave_market_tier_prices.csv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplexBreedingRedux\Features\SlaveMarket\Data\slave_market_breast_markup.csv">
+      <LogicalName>ComplexBreedingRedux.Features.SlaveMarket.Data.slave_market_breast_markup.csv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplexBreedingRedux\Features\SlaveMarket\Data\slave_market_milk_price_coefficient.csv">
+      <LogicalName>ComplexBreedingRedux.Features.SlaveMarket.Data.slave_market_milk_price_coefficient.csv</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ComplexBreedingRedux\Properties\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DepravedShield\Properties\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Update="VoiceReplay\Properties\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Update="TitsModCompat\Properties\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+<Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Accessibility">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+        <Reference Include="Markdig">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="MBM.ModLoader">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MBM.ModLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Backports">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.Backports.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Core">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Iced">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.Iced.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.ILHelpers">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.ILHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreGraphicAttachments">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\Mods\MoreGraphicAttachments.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-csharp">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\spine-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\spine-unity.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity-examples">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\spine-unity-examples.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MBM.ModLoader\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="SystemExtensionLib">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\Mods\SystemExtensionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(MBM)\MonsterBlackMarket_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\..\Game\MonsterBlackMarket\MonsterBlackMarket_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Tests 为独立测试项目（SpeciesHighRaceTraitTest），不参与模组编译 -->
+  <ItemGroup>
+    <Compile Remove="Tests\**" />
+    <EmbeddedResource Remove="Tests\**" />
+  </ItemGroup>
+
+
+</Project>
+
+
+
+

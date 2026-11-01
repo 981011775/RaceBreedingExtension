@@ -1,0 +1,29 @@
+{
+  "_comment": "GameTextOverrides（原版物品文本 / Trait 文本修正）移入标准本地化文件后使用的键。三语齐全。",
+
+  "Override_Trait108_Name": {
+    "en": "Disease Immunity",
+    "zh": "疾病免疫",
+    "ru": "Иммунитет к болезням"
+  },
+  "Override_Trait108_Text": {
+    "en": "She has a robust bloodline, always healthy, lively and full of energy.<BR>She is absolutely immune to venereal diseases.",
+    "zh": "她有着强健的血脉，总是健康活泼，精力充沛。<BR>她对性病具有绝对的免疫力。",
+    "ru": "У неё крепкое здоровье: она всегда бодра и полна сил.<BR>Она абсолютно невосприимчива к венерическим заболеваниям."
+  },
+  "Override_Trait71_Name": {
+    "en": "Otherworldly Charm",
+    "zh": "超凡魅力",
+    "ru": "Потустороннее обаяние"
+  },
+  "Override_Trait71_Tooltip": {
+    "en": "She possesses an otherworldly charm. <BR>When placed in the brothel, revenue increases 5~10 times.",
+    "zh": "她拥有着超凡脱俗的魅力。 <BR>放置在妓院时，营业额增加5〜10倍。",
+    "ru": "Она обладает потусторонним обаянием. <BR>В борделе доход увеличивается в 5-10 раз."
+  },
+  "Override_Item127_Text": {
+    "en": "After use, for the duration all cumshots this slave receives are internal and her sensitivity is increased.<BR>Duration: 1 day.",
+    "zh": "使用此道具后，持续时间内，交配时必定内射，且奴隶敏感度提升。<BR>持续时间为1天。",
+    "ru": "После применения предмета все семяизвержения, которые получает рабыня, происходят внутрь, а её чувствительность повышается.<BR>Продолжительность: 1 день."
+  }
+}

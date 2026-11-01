@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PluginLoaded" xml:space="preserve">
+    <value>{0} v{1} loaded!</value>
+  </data>
+  <data name="PluginDisabled" xml:space="preserve">
+    <value>{0} is disabled in config.</value>
+  </data>
+  <data name="Config_Enabled" xml:space="preserve">
+    <value>Enable or disable the plugin (requires restart)</value>
+  </data>
+  <data name="Config_AutoSellFemaleMode" xml:space="preserve">
+    <value>Auto sell mode for female offspring</value>
+  </data>
+  <data name="Config_AutoSellMaleMode" xml:space="preserve">
+    <value>Auto sell mode for male offspring</value>
+  </data>
+  <data name="AutoSell_SellAll" xml:space="preserve">
+    <value>Sell All</value>
+  </data>
+  <data name="AutoSell_DoNotSellAtLeastEqual" xml:space="preserve">
+    <value>Sell lower essence tier</value>
+  </data>
+  <data name="AutoSell_DoNotSellBetter" xml:space="preserve">
+    <value>Sell equal or lower essence tier</value>
+  </data>
+  <data name="AutoSell_DoNotSellAnyone" xml:space="preserve">
+    <value>Do not sell anyone</value>
+  </data>
+  <data name="AutoSell_EvoNoFilter" xml:space="preserve">
+    <value>No Filter</value>
+  </data>
+  <data name="AutoSell_EvoDoNotSell" xml:space="preserve">
+    <value>Don't Sell Evolutions</value>
+  </data>
+  <data name="AutoSell_EvoCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="Config_AutoSellFemaleEvoFilter" xml:space="preserve">
+    <value>Evolution filter for female offspring</value>
+  </data>
+  <data name="Config_AutoSellDegradation" xml:space="preserve">
+    <value>Selling degraded female offspring</value>
+  </data>
+  <data name="Config_AutoMilkUp" xml:space="preserve">
+    <value>Use milk automatically if species needs it to grow</value>
+  </data>
+  <data name="Config_StartingSlaveSpecies" xml:space="preserve">
+    <value>First acquired slave will be of the selected species</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Name" xml:space="preserve">
+    <value>Corrupted womb</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Desc" xml:space="preserve">
+    <value>After failed conception, 20% health restoration</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Name" xml:space="preserve">
+    <value>Primal instinct</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Desc" xml:space="preserve">
+    <value>Can have sex many times in a row without taking a break</value>
+  </data>
+  <data name="Trait_RobustBloodline_Name" xml:space="preserve">
+    <value>Robust bloodline</value>
+  </data>
+  <data name="Trait_RobustBloodline_Desc" xml:space="preserve">
+    <value>Lowers chance of losing a essence tier after inheritance by 75%</value>
+  </data>
+  <data name="Trait_UndyingSoul_Name" xml:space="preserve">
+    <value>Undying soul</value>
+  </data>
+  <data name="Trait_UndyingSoul_Desc" xml:space="preserve">
+    <value>After death, 75% chance for resurrection every day</value>
+  </data>
+  <data name="Trait_ViralResilience_Name" xml:space="preserve">
+    <value>Viral resilience</value>
+  </data>
+  <data name="Trait_ViralResilience_Desc" xml:space="preserve">
+    <value>Absolute immunity against venereal diseases</value>
+  </data>
+  <data name="Profession_Artificer_Name" xml:space="preserve">
+    <value>Artificer</value>
+  </data>
+  <data name="Profession_Artificer_Desc" xml:space="preserve">
+    <value>Skilled craftsman who creates magical objects and imbues them with arcane energy</value>
+  </data>
+  <data name="Profession_Blacksmith_Name" xml:space="preserve">
+    <value>Blacksmith</value>
+  </data>
+  <data name="Profession_Blacksmith_Desc" xml:space="preserve">
+    <value>Metalsmith who creates objects primarily from wrought iron or steel</value>
+  </data>
+  <data name="Profession_Cultist_Name" xml:space="preserve">
+    <value>Cultist</value>
+  </data>
+  <data name="Profession_Cultist_Desc" xml:space="preserve">
+    <value>Member of a dark religious cult</value>
+  </data>
+  <data name="Profession_Farmhand_Name" xml:space="preserve">
+    <value>Farmhand</value>
+  </data>
+  <data name="Profession_Farmhand_Desc" xml:space="preserve">
+    <value>Simple helper on farmlands</value>
+  </data>
+  <data name="Profession_Hunter_Name" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="Profession_Hunter_Desc" xml:space="preserve">
+    <value>A profession that hunt animals for the purpose of gaining food and other animal products</value>
+  </data>
+  <data name="Profession_Knight_Name" xml:space="preserve">
+    <value>Knight</value>
+  </data>
+  <data name="Profession_Knight_Desc" xml:space="preserve">
+    <value>Proud, skilled melee combatant who fights in the name of honor and chivalry</value>
+  </data>
+  <data name="Profession_Maid_Name" xml:space="preserve">
+    <value>Maid</value>
+  </data>
+  <data name="Profession_Maid_Desc" xml:space="preserve">
+    <value>Responsible for keeping rooms clean and tidy</value>
+  </data>
+  <data name="Profession_Paladin_Name" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="Profession_Paladin_Desc" xml:space="preserve">
+    <value>Holy knight, crusading in the name of good and order</value>
+  </data>
+  <data name="Profession_Priest_Name" xml:space="preserve">
+    <value>Priest</value>
+  </data>
+  <data name="Profession_Priest_Desc" xml:space="preserve">
+    <value>Spiritual leader and healer</value>
+  </data>
+  <data name="Profession_Princess_Name" xml:space="preserve">
+    <value>Princess</value>
+  </data>
+  <data name="Profession_Princess_Desc" xml:space="preserve">
+    <value>Daughter of a king from a faraway land</value>
+  </data>
+  <data name="Profession_Warrior_Name" xml:space="preserve">
+    <value>Warrior</value>
+  </data>
+  <data name="Profession_Warrior_Desc" xml:space="preserve">
+    <value>Powerful melee fighter, preferring to get up-close and personal with the enemy</value>
+  </data>
+  <data name="Profession_Witch_Name" xml:space="preserve">
+    <value>Witch</value>
+  </data>
+  <data name="Profession_Witch_Desc" xml:space="preserve">
+    <value>Utilizes the magic of nature to fuel their spells and their fearsome hexes</value>
+  </data>
+  <data name="Profession_Wizard_Name" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="Profession_Wizard_Desc" xml:space="preserve">
+    <value>A wise woman who can perform magic spells</value>
+  </data>
+  <data name="Species_Aasimar_Name" xml:space="preserve">
+    <value>Aasimar</value>
+  </data>
+  <data name="Species_Angel_Name" xml:space="preserve">
+    <value>Angel</value>
+  </data>
+  <data name="Species_ArcticWerewolf_Name" xml:space="preserve">
+    <value>Arctic Werewolf</value>
+  </data>
+  <data name="Species_Bugbear_Name" xml:space="preserve">
+    <value>Bugbear</value>
+  </data>
+  <data name="Species_Dairycow_Name" xml:space="preserve">
+    <value>Dairy Cow</value>
+  </data>
+  <data name="Species_Dhampir_Name" xml:space="preserve">
+    <value>Dhampir</value>
+  </data>
+  <data name="Species_FallenAngel_Name" xml:space="preserve">
+    <value>Fallen Angel</value>
+  </data>
+  <data name="Species_Genasi_Name" xml:space="preserve">
+    <value>Genasi</value>
+  </data>
+  <data name="Species_MagicWererabbit_Name" xml:space="preserve">
+    <value>Magic Wererabbit</value>
+  </data>
+  <data name="Species_MoonElf_Name" xml:space="preserve">
+    <value>Moon Elf</value>
+  </data>
+  <data name="Species_Weretiger_Name" xml:space="preserve">
+    <value>Weretiger</value>
+  </data>
+  <data name="Species_Devil_Name" xml:space="preserve">
+    <value>Devil</value>
+  </data>
+  <data name="Species_Dracolich_Name" xml:space="preserve">
+    <value>Dracolich</value>
+  </data>
+  <data name="Species_Dragon_Name" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="Species_Drake_Name" xml:space="preserve">
+    <value>Drake</value>
+  </data>
+  <data name="Species_Drow_Name" xml:space="preserve">
+    <value>Drow</value>
+  </data>
+  <data name="Species_Fairy_Name" xml:space="preserve">
+    <value>Fairy</value>
+  </data>
+  <data name="Species_Ghoul_Name" xml:space="preserve">
+    <value>Ghoul</value>
+  </data>
+  <data name="Species_Goblin_Name" xml:space="preserve">
+    <value>Goblin</value>
+  </data>
+  <data name="Species_Golem_Name" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Species_Hobgoblin_Name" xml:space="preserve">
+    <value>Hobgoblin</value>
+  </data>
+  <data name="Species_Horse_Name" xml:space="preserve">
+    <value>Horse</value>
+  </data>
+  <data name="Species_Kitsune_Name" xml:space="preserve">
+    <value>Kitsune</value>
+  </data>
+  <data name="Species_Mermaid_Name" xml:space="preserve">
+    <value>Mermaid</value>
+  </data>
+  <data name="Species_Minotaur_Name" xml:space="preserve">
+    <value>Minotaur</value>
+  </data>
+  <data name="Species_Nekomata_Name" xml:space="preserve">
+    <value>Imp</value>
+  </data>
+  <data name="Species_Orc_Name" xml:space="preserve">
+    <value>Orc</value>
+  </data>
+  <data name="Species_Redcap_Name" xml:space="preserve">
+    <value>Redcap</value>
+  </data>
+  <data name="Species_Salamander_Name" xml:space="preserve">
+    <value>Salamander</value>
+  </data>
+  <data name="Species_Slime_Name" xml:space="preserve">
+    <value>Slime</value>
+  </data>
+  <data name="Species_Succubus_Name" xml:space="preserve">
+    <value>Succubus</value>
+  </data>
+  <data name="Species_Vampire_Name" xml:space="preserve">
+    <value>Vampire</value>
+  </data>
+  <data name="Species_Wererabbit_Name" xml:space="preserve">
+    <value>Wererabbit</value>
+  </data>
+  <data name="Species_Werewolf_Name" xml:space="preserve">
+    <value>Werewolf</value>
+  </data>
+  <data name="SpeciesCore_Elf_Name" xml:space="preserve">
+    <value>Elf</value>
+  </data>
+  <data name="SpeciesCore_Gnome_Name" xml:space="preserve">
+    <value>Gnome</value>
+  </data>
+  <data name="SpeciesCore_Human_Name" xml:space="preserve">
+    <value>Human</value>
+  </data>
+  <data name="SpeciesCore_Imp_Name" xml:space="preserve">
+    <value>Neko</value>
+  </data>
+  <data name="SpeciesCore_Lizard_Name" xml:space="preserve">
+    <value>Dragonian</value>
+  </data>
+  <data name="SpeciesCore_Rabbit_Name" xml:space="preserve">
+    <value>Usagi</value>
+  </data>
+  <data name="SpeciesCore_Sheep_Name" xml:space="preserve">
+    <value>Hitsuji</value>
+  </data>
+  <data name="SpeciesCore_Wolf_Name" xml:space="preserve">
+    <value>Inu</value>
+  </data>
+  <data name="Attr_ConceptionRate" xml:space="preserve">
+    <value>Conception rate</value>
+  </data>
+  <data name="Attr_SexTime" xml:space="preserve">
+    <value>Sex time</value>
+  </data>
+  <data name="Attr_GrowthTime" xml:space="preserve">
+    <value>Growth time</value>
+  </data>
+  <data name="Attr_MaintenanceCost" xml:space="preserve">
+    <value>Maintenance cost</value>
+  </data>
+  <data name="Attr_DamageDuringSex" xml:space="preserve">
+    <value>Damage during sex</value>
+  </data>
+  <data name="Attr_MilkQuality" xml:space="preserve">
+    <value>Milk quality</value>
+  </data>
+  <data name="Attr_MaxBirthCount" xml:space="preserve">
+    <value>Max birth count</value>
+  </data>
+  <data name="Attr_MaxConcurrentConceptions" xml:space="preserve">
+    <value>Max concurrent conceptions</value>
+  </data>
+  <data name="Attr_DamageDuringPregnancy" xml:space="preserve">
+    <value>Damage during pregnancy</value>
+  </data>
+  <data name="Attr_Crest" xml:space="preserve">
+    <value>Crest</value>
+  </data>
+  <data name="Attr_RemoveCrest" xml:space="preserve">
+    <value>Remove crest</value>
+  </data>
+  <data name="Attr_OldMilk" xml:space="preserve">
+    <value>Old Milk</value>
+  </data>
+  <data name="Label_Profession" xml:space="preserve">
+    <value>Profession:</value>
+  </data>
+  <data name="Label_Trait" xml:space="preserve">
+    <value>Trait:</value>
+  </data>
+  <data name="Tooltip_Allow" xml:space="preserve">
+    <value>Allow:</value>
+  </data>
+  <data name="Tooltip_HaveSlavesOffspringWith" xml:space="preserve">
+    <value>have slaves offspring with:</value>
+  </data>
+  <data name="Tooltip_Characteristics" xml:space="preserve">
+    <value>Characteristics:</value>
+  </data>
+  <data name="Tooltip_Affecting" xml:space="preserve">
+    <value>Affecting:</value>
+  </data>
+  <data name="Tooltip_Inheritance" xml:space="preserve">
+    <value>Inheritance:</value>
+  </data>
+  <data name="Tooltip_Slave" xml:space="preserve">
+    <value>slave</value>
+  </data>
+  <data name="Tooltip_Monster" xml:space="preserve">
+    <value>monster</value>
+  </data>
+  <data name="Tooltip_Tier" xml:space="preserve">
+    <value>Tier:</value>
+  </data>
+  <data name="Tooltip_Yes" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="Tooltip_No" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Tooltip_Probability" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="Tooltip_HaveEssences" xml:space="preserve">
+    <value>have essences:</value>
+  </data>
+  <data name="Tooltip_IsSpecies" xml:space="preserve">
+    <value>is species:</value>
+  </data>
+  <data name="Tooltip_OneParentHasTrait" xml:space="preserve">
+    <value>one of the parents has this trait</value>
+  </data>
+  <data name="Tooltip_EmergenceRequirements" xml:space="preserve">
+    <value>Emergence requirements:</value>
+  </data>
+  <data name="Tooltip_Or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Tooltip_Teachable" xml:space="preserve">
+    <value>Teachable:</value>
+  </data>
+  <data name="Tooltip_DailyInClassroom" xml:space="preserve">
+    <value>Daily in classroom:</value>
+  </data>
+  <data name="Tooltip_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Tooltip_WorkAlways" xml:space="preserve">
+    <value>always</value>
+  </data>
+  <data name="Tooltip_WorkDepraved" xml:space="preserve">
+    <value>depraved</value>
+  </data>
+  <data name="Tooltip_WorkNotDepraved" xml:space="preserve">
+    <value>not depraved</value>
+  </data>
+  <data name="Job_RoomCleaning" xml:space="preserve">
+    <value> clean {0} rooms</value>
+  </data>
+  <data name="Job_EarningMoney" xml:space="preserve">
+    <value> earn {0}g-{1}g</value>
+  </data>
+  <data name="Job_Healing" xml:space="preserve">
+    <value> heal {0}%-{1}% of a random slave's health</value>
+  </data>
+  <data name="Job_SummonPixy" xml:space="preserve">
+    <value> summon {0} pixies</value>
+  </data>
+  <data name="Job_HelpingNiel" xml:space="preserve">
+    <value> add {0} Niel likeability</value>
+  </data>
+  <data name="Job_HelpingFlora" xml:space="preserve">
+    <value> add {0} Flora likeability</value>
+  </data>
+  <data name="Job_HelpingBarbara" xml:space="preserve">
+    <value> add {0} Barbara likeability</value>
+  </data>
+  <data name="Job_Corruption" xml:space="preserve">
+    <value> add {0} depravation to a random not fully depraved slave</value>
+  </data>
+  <data name="Job_Cleansing" xml:space="preserve">
+    <value> remove {0} depravation from a random not fully depraved slave</value>
+  </data>
+  <data name="Job_CreateGolem" xml:space="preserve">
+    <value> Summon Elemental</value>
+  </data>
+  <data name="Tooltip_Wealth" xml:space="preserve">
+    <value>Wealth:</value>
+  </data>
+  <data name="Tooltip_VenerealDisease" xml:space="preserve">
+    <value>Venereal disease:</value>
+  </data>
+  <data name="Tooltip_Preferences" xml:space="preserve">
+    <value>Preferences:</value>
+  </data>
+  <data name="Tooltip_Reputation" xml:space="preserve">
+    <value>Reputation:</value>
+  </data>
+  <data name="Pref_Rarity" xml:space="preserve">
+    <value>Rarity: at least</value>
+  </data>
+  <data name="Pref_Personality" xml:space="preserve">
+    <value>Personality:</value>
+  </data>
+  <data name="Pref_NotDepraved" xml:space="preserve">
+    <value>Not Depraved</value>
+  </data>
+  <data name="Pref_Depraved" xml:space="preserve">
+    <value>Depraved</value>
+  </data>
+  <data name="Pref_Height" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="Pref_HeightSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Pref_HeightAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Pref_Breasts" xml:space="preserve">
+    <value>Breasts:</value>
+  </data>
+  <data name="Pref_BreastsFlat" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="Pref_BreastsSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Pref_BreastsAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Pref_BreastsBig" xml:space="preserve">
+    <value>Big</value>
+  </data>
+  <data name="Pref_BreastsHuge" xml:space="preserve">
+    <value>Huge</value>
+  </data>
+  <data name="Pref_BreastsExtra" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="Tooltip_HealthRegen" xml:space="preserve">
+    <value>Health regeneration:</value>
+  </data>
+  <data name="Tooltip_MilkRate" xml:space="preserve">
+    <value>Milk production rate:</value>
+  </data>
+  <data name="Tooltip_BreastsCapacity" xml:space="preserve">
+    <value>Breasts capacity:</value>
+  </data>
+  <data name="Tooltip_OwnSpeciesBirth" xml:space="preserve">
+    <value>Own species birth:</value>
+  </data>
+  <data name="Tooltip_LowerSpeciesChanceBirth" xml:space="preserve">
+    <value>Lower species chance birth:</value>
+  </data>
+  <data name="Tooltip_ConceptionFailureChance" xml:space="preserve">
+    <value>Conception failure chance:</value>
+  </data>
+  <data name="Tooltip_PossibleSpecies" xml:space="preserve">
+    <value>Possible species:</value>
+  </data>
+  <data name="Tooltip_Males" xml:space="preserve">
+    <value>Males:</value>
+  </data>
+  <data name="Tooltip_Base" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="Tooltip_HasDisease" xml:space="preserve">
+    <value>has disease</value>
+  </data>
+  <data name="Tooltip_HealthLow" xml:space="preserve">
+    <value>health &lt; 25%</value>
+  </data>
+  <data name="Tooltip_HealthHigh" xml:space="preserve">
+    <value>health &gt; 75%</value>
+  </data>
+  <data name="Tooltip_Depravation" xml:space="preserve">
+    <value>depravation</value>
+  </data>
+  <data name="State_Young" xml:space="preserve">
+    <value>young</value>
+  </data>
+  <data name="State_SlavePrice" xml:space="preserve">
+    <value>Slave price:</value>
+  </data>
+  <data name="State_MilkPrice" xml:space="preserve">
+    <value>Milk price:</value>
+  </data>
+  <data name="State_Breasts" xml:space="preserve">
+    <value>Breasts:</value>
+  </data>
+  <data name="State_Milk" xml:space="preserve">
+    <value>Milk:</value>
+  </data>
+  <data name="State_Womb" xml:space="preserve">
+    <value>Womb:</value>
+  </data>
+  <data name="State_WombStretch" xml:space="preserve">
+    <value>Stretching:</value>
+  </data>
+  <data name="Trait_Upgraded" xml:space="preserve">
+    <value>Upgraded</value>
+  </data>
+  <data name="Trait_Downgraded" xml:space="preserve">
+    <value>Downgraded</value>
+  </data>
+  <data name="Item_PixieSummonDust" xml:space="preserve">
+    <value>Pixie Summon Dust</value>
+  </data>
+  <data name="Attr_BreastsCapacity" xml:space="preserve">
+    <value>Breasts capacity</value>
+  </data>
+  <data name="Attr_MaxHealth" xml:space="preserve">
+    <value>Max health</value>
+  </data>
+  <data name="Attr_MilkProductionRate" xml:space="preserve">
+    <value>Milk production rate</value>
+  </data>
+  <data name="Attr_DepravationGain" xml:space="preserve">
+    <value>Daily depravation gain</value>
+  </data>
+  <data name="State_MilkPriceUnit" xml:space="preserve">
+    <value>g/bottle</value>
+  </data>
+  <data name="Breast_Flat" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="Breast_Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Breast_Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Breast_Big" xml:space="preserve">
+    <value>Big</value>
+  </data>
+  <data name="Breast_Huge" xml:space="preserve">
+    <value>Huge</value>
+  </data>
+  <data name="Breast_Extra" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="Womb_Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Womb_Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Womb_Big" xml:space="preserve">
+    <value>Big</value>
+  </data>
+  <data name="Womb_Huge" xml:space="preserve">
+    <value>Huge</value>
+  </data>
+  <data name="Womb_Enormous" xml:space="preserve">
+    <value>Enormous</value>
+  </data>
+  <data name="Tier_Common" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="Tier_Uncommon" xml:space="preserve">
+    <value>Uncommon</value>
+  </data>
+  <data name="Tier_Rare" xml:space="preserve">
+    <value>Rare</value>
+  </data>
+  <data name="Tier_Epic" xml:space="preserve">
+    <value>Epic</value>
+  </data>
+  <data name="Tier_Legendary" xml:space="preserve">
+    <value>Legendary</value>
+  </data>
+  <data name="JobName_Foraging" xml:space="preserve">
+    <value>Foraging</value>
+  </data>
+  <data name="JobName_Hunting" xml:space="preserve">
+    <value>Hunting</value>
+  </data>
+  <data name="JobName_CraftingTools" xml:space="preserve">
+    <value>Crafting Tools</value>
+  </data>
+  <data name="JobName_CraftingArtifacts" xml:space="preserve">
+    <value>Crafting Artifacts</value>
+  </data>
+  <data name="JobName_Cleaning" xml:space="preserve">
+    <value>Rooms Cleaning</value>
+  </data>
+  <data name="JobName_Healing" xml:space="preserve">
+    <value>Dressing Wounds</value>
+  </data>
+  <data name="JobName_HealingSpell" xml:space="preserve">
+    <value>Casting Healing Spells</value>
+  </data>
+  <data name="JobName_SummonPixy" xml:space="preserve">
+    <value>Summoning Familiars</value>
+  </data>
+  <data name="JobName_HelpingNiel" xml:space="preserve">
+    <value>Lab Assistance</value>
+  </data>
+  <data name="JobName_HelpingFlora" xml:space="preserve">
+    <value>Clinic Assistance</value>
+  </data>
+  <data name="JobName_HelpingBarbara" xml:space="preserve">
+    <value>Workshop Assistance</value>
+  </data>
+  <data name="JobName_Adventuring" xml:space="preserve">
+    <value>Adventuring</value>
+  </data>
+  <data name="JobName_Witchcraft" xml:space="preserve">
+    <value>Witchcraft Services</value>
+  </data>
+  <data name="JobName_WitchcraftBig" xml:space="preserve">
+    <value>Selling Hexes</value>
+  </data>
+  <data name="JobName_PreachingCorruption" xml:space="preserve">
+    <value>Preaching Corruption</value>
+  </data>
+  <data name="JobName_CleansingDepravation" xml:space="preserve">
+    <value>Soul Cleansing</value>
+  </data>
+  <data name="JobName_CreateGolem" xml:space="preserve">
+    <value>Summon Elemental</value>
+  </data>
+  <data name="Work_Prefix" xml:space="preserve">
+    <value>[Work]</value>
+  </data>
+  <data name="Work_CleanedRoom" xml:space="preserve">
+    <value>Cleaned by {0} ({1})</value>
+  </data>
+  <data name="Work_HealedSlave" xml:space="preserve">
+    <value>Healed {0}% health by {1} ({2})</value>
+  </data>
+  <data name="Work_AddedDepravation" xml:space="preserve">
+    <value>Added {0} depravation by {1} ({2})</value>
+  </data>
+  <data name="Work_RemovedDepravation" xml:space="preserve">
+    <value>Removed {0} depravation by {1} ({2})</value>
+  </data>
+  <data name="Item_PixySummoned" xml:space="preserve">
+    <value>Pixy summoned!</value>
+  </data>
+  <data name="Popup_WombDilated" xml:space="preserve">
+    <value>Womb dilated!</value>
+  </data>
+  <data name="Popup_UndyingSoul" xml:space="preserve">
+    <value>Undying soul</value>
+  </data>
+  <data name="Popup_DepravationIgnored" xml:space="preserve">
+    <value>Ignored ({0})</value>
+  </data>
+  <data name="Msg_CountIsZero" xml:space="preserve">
+    <value>Item count is zero.</value>
+  </data>
+  <data name="Label_BloodlineTitle" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="Bloodline_Demon_Name" xml:space="preserve">
+    <value>Demon Bloodline</value>
+  </data>
+  <data name="Bloodline_Demon_Desc" xml:space="preserve">
+    <value>A bloodline eroded by demonic power.</value>
+  </data>
+  <data name="Bloodline_Monster_Name" xml:space="preserve">
+    <value>Monster Bloodline</value>
+  </data>
+  <data name="Bloodline_Monster_Desc" xml:space="preserve">
+    <value>A bloodline strengthened by monstrous power.</value>
+  </data>
+  <data name="Bloodline_Wild_Name" xml:space="preserve">
+    <value>Wild Bloodline</value>
+  </data>
+  <data name="Bloodline_Wild_Desc" xml:space="preserve">
+    <value>A bloodline fused with feral power.</value>
+  </data>
+  <data name="Bloodline_Divine_Name" xml:space="preserve">
+    <value>Divine Bloodline</value>
+  </data>
+  <data name="Bloodline_Divine_Desc" xml:space="preserve">
+    <value>A bloodline blessed by divine power.</value>
+  </data>
+  <data name="Bloodline_Magic_Name" xml:space="preserve">
+    <value>Magic Bloodline</value>
+  </data>
+  <data name="Bloodline_Magic_Desc" xml:space="preserve">
+    <value>A bloodline eroded by magical power.</value>
+  </data>
+  <data name="Bloodline_Elemental_Name" xml:space="preserve">
+    <value>Elemental Bloodline</value>
+  </data>
+  <data name="Bloodline_Elemental_Desc" xml:space="preserve">
+    <value>A bloodline fused with elemental power.</value>
+  </data>
+  <data name="Bloodline_Nature_Name" xml:space="preserve">
+    <value>Nature Bloodline</value>
+  </data>
+  <data name="Bloodline_Nature_Desc" xml:space="preserve">
+    <value>A bloodline blessed by nature's power.</value>
+  </data>
+  <data name="Bloodline_Dragon_Name" xml:space="preserve">
+    <value>Dragon Bloodline</value>
+  </data>
+  <data name="Bloodline_Dragon_Desc" xml:space="preserve">
+    <value>A bloodline strengthened by dragon power.</value>
+  </data>
+  <data name="Bloodline_Tooltip_CurrentLevel" xml:space="preserve">
+    <value>Current level: {0}</value>
+  </data>
+  <data name="Bloodline_Tooltip_PerLevel" xml:space="preserve">
+    <value>Per-level effects:</value>
+  </data>
+  <data name="Bloodline_Tooltip_Monster" xml:space="preserve">
+    <value>Monster effects:</value>
+  </data>
+  <data name="Bloodline_Line_SexTime" xml:space="preserve">
+    <value>Sex time {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MentalityCost" xml:space="preserve">
+    <value>Stamina cost {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Food" xml:space="preserve">
+    <value>Maintenance cost {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Growth" xml:space="preserve">
+    <value>Growth time {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Conception" xml:space="preserve">
+    <value>Conception rate {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_Shield" xml:space="preserve">
+    <value>Depraved shield {0} per level (female only, current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_FactionReputation" xml:space="preserve">
+    <value>While depraved, {0} brothel reputation gain is ×{1} (+0.5 per level)</value>
+  </data>
+  <data name="Bloodline_Line_MilkDepraved" xml:space="preserve">
+    <value>{0}% chance to obtain {1} on orgasm while depraved (5% per level)</value>
+  </data>
+  <data name="Bloodline_Line_Milk" xml:space="preserve">
+    <value>{0}% chance to obtain {1} on orgasm (5% per level)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSpeed" xml:space="preserve">
+    <value>Females having sex with this monster: sex progress speed {0} per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MonsterShield" xml:space="preserve">
+    <value>On cumshot the female loses {0} depraved shield per level (current: {1})</value>
+  </data>
+  <data name="Bloodline_Line_MonsterUpgrade" xml:space="preserve">
+    <value>{0}% chance per level to trigger a trait upgrade for the female on cumshot (current: {1}%)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterStamina" xml:space="preserve">
+    <value>{0}% chance per level to restore 50% stamina for the female on cumshot (current: {1}%)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTimePerLevel" xml:space="preserve">
+    <value>Sex time {0} (+{1}s per level)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentalityPerLevel" xml:space="preserve">
+    <value>Stamina cost {0} (+{1} per level)</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTime" xml:space="preserve">
+    <value>Sex time {0}</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentality" xml:space="preserve">
+    <value>Stamina cost {0}</value>
+  </data>
+  <data name="Bloodline_Popup_Milk" xml:space="preserve">
+    <value>Bloodline: +1 {0}</value>
+  </data>
+  <data name="Bloodline_Popup_ShieldDrain" xml:space="preserve">
+    <value>Bloodline ({0}): shield -{1}</value>
+  </data>
+  <data name="Bloodline_Popup_Upgrade" xml:space="preserve">
+    <value>Bloodline: trait upgrade!</value>
+  </data>
+  <data name="Bloodline_Popup_Stamina" xml:space="preserve">
+    <value>Bloodline: stamina +50%!</value>
+  </data>
+  <data name="RoomSkill_HunterCampDisplay" xml:space="preserve">
+    <value>Hunter Camp Power: {0}</value>
+  </data>
+  <data name="HunterCamp_CapturedLog" xml:space="preserve">
+    <value>[Hunter Camp] {0} captured a new slave: {1} ({2} / {3}) - Gold {4}, Power {5}</value>
+  </data>
+  <data name="HunterCamp_PopCaptured" xml:space="preserve">
+    <value>Captured!</value>
+  </data>
+  <data name="HunterCamp_SpawnLog" xml:space="preserve">
+    <value>[Hunter Camp] Captured a new slave: {0} (Gold -{1})</value>
+  </data>
+  <data name="HunterCamp_SpawnPop" xml:space="preserve">
+    <value>Captured!</value>
+  </data>
+  <data name="HunterCamp_EscapeLog" xml:space="preserve">
+    <value>[Hunter Camp] The captive {0} escaped! Gold -{1}</value>
+  </data>
+  <data name="HunterCamp_EscapePop" xml:space="preserve">
+    <value>-{0}</value>
+  </data>
+  <data name="Faction_Kingdom_Name" xml:space="preserve">
+    <value>Kingdom Faction</value>
+  </data>
+  <data name="Faction_Sect_Name" xml:space="preserve">
+    <value>Religious Sect</value>
+  </data>
+  <data name="Faction_Demonic_Name" xml:space="preserve">
+    <value>Demonic Faction</value>
+  </data>
+  <data name="Faction_Conclave_Name" xml:space="preserve">
+    <value>Arcane Conclave</value>
+  </data>
+  <data name="Faction_Monster_Name" xml:space="preserve">
+    <value>Monster Faction</value>
+  </data>
+  <data name="FactionRep_Unknown" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;Unknown&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Obscure" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;Obscure&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Insignificant" xml:space="preserve">
+    <value>&lt;color=#FFFFFF&gt;Insignificant&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Noteworthy" xml:space="preserve">
+    <value>&lt;color=#008000&gt;Noteworthy&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Reputable" xml:space="preserve">
+    <value>&lt;color=#4F8ACF&gt;Reputable&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Significant" xml:space="preserve">
+    <value>&lt;color=#BA65C1&gt;Significant&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Famous" xml:space="preserve">
+    <value>&lt;color=#930EF1&gt;Famous&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Fabled" xml:space="preserve">
+    <value>&lt;color=#FFA500&gt;Fabled&lt;/color&gt;</value>
+  </data>
+  <data name="PrefType_Pussy" xml:space="preserve">
+    <value>Pussy</value>
+  </data>
+  <data name="PrefType_Fellatio" xml:space="preserve">
+    <value>Fellatio</value>
+  </data>
+  <data name="PrefType_Anal" xml:space="preserve">
+    <value>Anal</value>
+  </data>
+  <data name="PrefType_Paizuri" xml:space="preserve">
+    <value>Paizuri</value>
+  </data>
+  <data name="PrefType_Bestiality" xml:space="preserve">
+    <value>Bestiality</value>
+  </data>
+  <data name="PrefType_Birth" xml:space="preserve">
+    <value>Birth Show</value>
+  </data>
+  <data name="PrefType_Vip" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="PrefType_Vvip" xml:space="preserve">
+    <value>VVIP</value>
+  </data>
+  <data name="Label_Preference" xml:space="preserve">
+    <value>Preference: </value>
+  </data>
+  <data name="Profession_Brigand_Name" xml:space="preserve">
+    <value>Brigand</value>
+  </data>
+  <data name="Profession_Brigand_Desc" xml:space="preserve">
+    <value>An outlaw of the wilds</value>
+  </data>
+  <data name="Profession_Assassin_Name" xml:space="preserve">
+    <value>Assassin</value>
+  </data>
+  <data name="Profession_Assassin_Desc" xml:space="preserve">
+    <value>An assassin skilled in the use of poisons.</value>
+  </data>
+  <data name="Profession_Thief_Name" xml:space="preserve">
+    <value>Thief</value>
+  </data>
+  <data name="Profession_Thief_Desc" xml:space="preserve">
+    <value>A deft outlaw with thieving skills</value>
+  </data>
+  <data name="Profession_Marauder_Name" xml:space="preserve">
+    <value>Marauder</value>
+  </data>
+  <data name="Profession_Marauder_Desc" xml:space="preserve">
+    <value>An outlaw who excels at plundering</value>
+  </data>
+  <data name="Profession_Plunderer_Name" xml:space="preserve">
+    <value>Plunderer</value>
+  </data>
+  <data name="Profession_Plunderer_Desc" xml:space="preserve">
+    <value>An extremely powerful outlaw</value>
+  </data>
+  <data name="Profession_Apothecary_Name" xml:space="preserve">
+    <value>Apothecary</value>
+  </data>
+  <data name="Profession_Apothecary_Desc" xml:space="preserve">
+    <value>A maker of medicines with deep knowledge of herbs.</value>
+  </data>
+  <data name="Profession_DarkPriest_Name" xml:space="preserve">
+    <value>Dark Priest</value>
+  </data>
+  <data name="Profession_DarkPriest_Desc" xml:space="preserve">
+    <value>A caster who commands the powers of darkness.</value>
+  </data>
+  <data name="Profession_Merchant_Name" xml:space="preserve">
+    <value>Merchant</value>
+  </data>
+  <data name="Profession_Merchant_Desc" xml:space="preserve">
+    <value>Handles all kinds of commercial activities.</value>
+  </data>
+  <data name="Profession_Alchemist_Name" xml:space="preserve">
+    <value>Alchemist</value>
+  </data>
+  <data name="Profession_Alchemist_Desc" xml:space="preserve">
+    <value>Able to craft wondrous alchemical items.</value>
+  </data>
+  <data name="Profession_Hero_Name" xml:space="preserve">
+    <value>Hero</value>
+  </data>
+  <data name="Profession_Hero_Desc" xml:space="preserve">
+    <value>A warrior said to possess wondrous power.</value>
+  </data>
+  <data name="Profession_Trainer_Name" xml:space="preserve">
+    <value>Trainer</value>
+  </data>
+  <data name="Profession_Trainer_Desc" xml:space="preserve">
+    <value>An excellent assistant to the black-market merchant</value>
+  </data>
+  <data name="JobName_PotionCrafting" xml:space="preserve">
+    <value>Crafting Potions</value>
+  </data>
+  <data name="JobName_WitchcraftPotion" xml:space="preserve">
+    <value>Crafting Witchcraft Potions</value>
+  </data>
+  <data name="JobName_Commerce" xml:space="preserve">
+    <value>Commerce</value>
+  </data>
+  <data name="JobName_AbilitySharing" xml:space="preserve">
+    <value>Ability Sharing</value>
+  </data>
+  <data name="JobName_DepravedTraining" xml:space="preserve">
+    <value>Depraved Training</value>
+  </data>
+  <data name="JobName_DarkRitual" xml:space="preserve">
+    <value>Dark Ritual</value>
+  </data>
+  <data name="JobName_HormoneExtraction" xml:space="preserve">
+    <value>Hormone Extraction</value>
+  </data>
+  <data name="Job_ObtainItem" xml:space="preserve">
+    <value> Obtain {0}</value>
+  </data>
+  <data name="Job_RemoveShield" xml:space="preserve">
+    <value> Remove {0} DepravedShield from a random slave</value>
+  </data>
+  <data name="Work_RemovedShield" xml:space="preserve">
+    <value>{1} ({2}) removed {0} points of DepravedShield</value>
+  </data>
+  <data name="ItemName_BodyFluid" xml:space="preserve">
+    <value>Body Fluid</value>
+  </data>
+  <data name="ItemName_GoblinSemen" xml:space="preserve">
+    <value>Goblin Semen</value>
+  </data>
+  <data name="ItemName_OrcHeart" xml:space="preserve">
+    <value>Orc Heart</value>
+  </data>
+  <data name="ItemName_WerewolfTail" xml:space="preserve">
+    <value>Werewolf Tail</value>
+  </data>
+  <data name="ItemName_DragonTailMeat" xml:space="preserve">
+    <value>Dragon Tail Meat</value>
+  </data>
+  <data name="ItemName_DawrfHeart" xml:space="preserve">
+    <value>Dwarf Heart</value>
+  </data>
+  <data name="ItemName_HealthRecoveryInjection" xml:space="preserve">
+    <value>Health Recovery Injection</value>
+  </data>
+  <data name="ItemName_MammaryGlandRecoveryInjection" xml:space="preserve">
+    <value>Mammary Gland Recovery Injection</value>
+  </data>
+  <data name="ItemName_OvumRecoveryInjection" xml:space="preserve">
+    <value>Ovum Recovery Injection</value>
+  </data>
+  <data name="ItemName_Item_Aphrodisiac" xml:space="preserve">
+    <value>Aphrodisiac</value>
+  </data>
+  <data name="ItemName_Item_ViOgra" xml:space="preserve">
+    <value>ViOgra</value>
+  </data>
+  <data name="ItemName_Item_TraitUpgradePill" xml:space="preserve">
+    <value>Trait Upgrade Pill</value>
+  </data>
+  <data name="ItemName_HumanMilk" xml:space="preserve">
+    <value>Human Milk</value>
+  </data>
+  <data name="ItemName_LoliMilk" xml:space="preserve">
+    <value>Loli Milk</value>
+  </data>
+  <data name="ItemName_ElfMilk" xml:space="preserve">
+    <value>Elf Milk</value>
+  </data>
+  <data name="ItemName_DwarfMilk" xml:space="preserve">
+    <value>Dwarf Milk</value>
+  </data>
+  <data name="ItemName_FurryMilk" xml:space="preserve">
+    <value>Beastfolk Milk</value>
+  </data>
+  <data name="ItemName_SmallFurryMilk" xml:space="preserve">
+    <value>Small Beastfolk Milk</value>
+  </data>
+  <data name="ItemName_DragonianMilk" xml:space="preserve">
+    <value>Dragonian Milk</value>
+  </data>
+  <data name="ItemText_LoliMilk" xml:space="preserve">
+    <value>Milk squeezed from a young girl.&lt;BR&gt;Its immature flavor is distinctive.&lt;BR&gt;It can make the body grow. There is a 15% chance that one of the following effects occurs.&lt;BR&gt;&lt;color=#FF0000&gt;Stamina cost during sex +0.05&lt;BR&gt;Sex time +5 seconds&lt;/color&gt;</value>
+  </data>
+  <data name="Profession_Brigand_Passive" xml:space="preserve">
+    <value>Combat power +10%. On a monster in a Hunter Camp: +1 sex needed before slaves escape</value>
+  </data>
+  <data name="Profession_Thief_Passive" xml:space="preserve">
+    <value>Combat power +20%. On a monster in a Hunter Camp: +2 sex needed before slaves escape</value>
+  </data>
+  <data name="Profession_Marauder_Passive" xml:space="preserve">
+    <value>Combat power +40%. On a monster in a Hunter Camp: +3 sex needed before slaves escape</value>
+  </data>
+  <data name="Profession_Plunderer_Passive" xml:space="preserve">
+    <value>Combat power +60%. On a monster in a Hunter Camp: +4 sex needed before slaves escape</value>
+  </data>
+  <data name="Profession_Warrior_Passive" xml:space="preserve">
+    <value>Combat power +20%</value>
+  </data>
+  <data name="Profession_Hunter_Passive" xml:space="preserve">
+    <value>Combat power +20%</value>
+  </data>
+  <data name="Profession_Knight_Passive" xml:space="preserve">
+    <value>Combat power +40%</value>
+  </data>
+  <data name="Profession_Assassin_Passive" xml:space="preserve">
+    <value>Combat power +20%</value>
+  </data>
+  <data name="Profession_Paladin_Passive" xml:space="preserve">
+    <value>Combat power +60%</value>
+  </data>
+  <data name="Profession_Princess_Passive" xml:space="preserve">
+    <value>When a Princess serves clients in brothel rooms, faction revenue and faction reputation are multiplied by 10 (vanilla gold and reputation are unaffected)</value>
+  </data>
+  <data name="Profession_Trainer_Passive" xml:space="preserve">
+    <value>Combat power +40%. On a monster: females having sex with it gain extra sex progress speed; +4 sex needed before Hunter Camp slaves escape</value>
+  </data>
+  <data name="Profession_Hero_Passive" xml:space="preserve">
+    <value>Combat power +80%</value>
+  </data>
+  <data name="Profession_Brigand_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Thief_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Marauder_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Plunderer_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Warrior_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Hunter_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Priest_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_DarkPriest_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Alchemist_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill a monster weaker than her (always at double power)</value>
+  </data>
+  <data name="Profession_Knight_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, kills any monster weaker than her</value>
+  </data>
+  <data name="Profession_Assassin_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, kills any monster weaker than her</value>
+  </data>
+  <data name="Profession_Wizard_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 25% chance to kill every monster weaker than her in the room</value>
+  </data>
+  <data name="Profession_Witch_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, 50% chance to kill every monster weaker than her in the room</value>
+  </data>
+  <data name="Profession_Paladin_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, kills every monster weaker than her in the room</value>
+  </data>
+  <data name="Profession_Hero_Kill" xml:space="preserve">
+    <value>Not depraved: on sex start / sex end, kills every monster weaker than her in the room</value>
+  </data>
+  <data name="Combat_KilledShort" xml:space="preserve">
+    <value>&lt;color=#E07369&gt;Slain!&lt;/color&gt;</value>
+  </data>
+  <data name="State_CombatPower" xml:space="preserve">
+    <value>Combat power:</value>
+  </data>
+  <data name="State_MonsterPrice" xml:space="preserve">
+    <value>Monster price:</value>
+  </data>
+  <data name="State_PriceRate" xml:space="preserve">
+    <value>Price rate:</value>
+  </data>
+  <data name="Job_RemoveShieldRange" xml:space="preserve">
+    <value> Remove {0} DepravedShield from {1}-{2} random slaves</value>
+  </data>
+  <data name="ItemName_HumanPheromone" xml:space="preserve">
+    <value>Human Pheromone</value>
+  </data>
+  <data name="Job_ObtainItemRange" xml:space="preserve">
+    <value> Obtain {0}-{1}x {2}</value>
+  </data>
+  <data name="Override_Trait108_Name" xml:space="preserve">
+    <value>Disease Immunity</value>
+  </data>
+  <data name="Override_Trait108_Text" xml:space="preserve">
+    <value>She has a robust bloodline, always healthy, lively and full of energy.&lt;BR&gt;She is absolutely immune to venereal diseases.</value>
+  </data>
+  <data name="Override_Trait71_Name" xml:space="preserve">
+    <value>Otherworldly Charm</value>
+  </data>
+  <data name="Override_Trait71_Tooltip" xml:space="preserve">
+    <value>She possesses an otherworldly charm. &lt;BR&gt;When placed in the brothel, revenue increases 5~10 times.</value>
+  </data>
+  <data name="Override_Item127_Text" xml:space="preserve">
+    <value>After use, for the duration all cumshots this slave receives are internal and her sensitivity is increased.&lt;BR&gt;Duration: 1 day.</value>
+  </data>
+</root>

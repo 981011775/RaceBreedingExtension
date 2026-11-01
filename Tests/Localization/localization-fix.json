@@ -1,0 +1,36 @@
+{
+  "_comment": "RaceBreedingExtension 本地化数据（EN / ZH / RU）。由 Apply-Localization.ps1 读取，脚本本身保持纯 ASCII。",
+
+  "enFixes": {
+    "AutoSell_DoNotSellAtLeastEqual": "Sell lower essence tier",
+    "AutoSell_DoNotSellBetter": "Sell equal or lower essence tier",
+    "ItemName_FurryMilk": "Beastfolk Milk",
+    "ItemName_SmallFurryMilk": "Small Beastfolk Milk",
+    "Label_Preference": "Preference: ",
+    "RoomSkill_HunterCampDisplay": "Hunter Camp Power: {0}",
+    "Job_CreateGolem": " Summon Elemental",
+    "Job_Healing": " heal {0}%-{1}% of a random slave's health",
+    "Job_Corruption": " add {0} depravation to a random not fully depraved slave",
+    "Job_Cleansing": " remove {0} depravation from a random not fully depraved slave",
+    "Tooltip_OneParentHasTrait": "one of the parents has this trait"
+  },
+
+  "zhFixes": {
+  },
+
+  "ruFixes": {
+    "AutoSell_DoNotSellAtLeastEqual": "Продавать с низшим уровнем эссенции",
+    "AutoSell_DoNotSellBetter": "Продавать с равным или низшим уровнем эссенции",
+    "ItemName_DawrfHeart": "Сердце гнома",
+    "Job_Cleansing": " убрать {0} разврата у случайной не полностью развращённой рабыни",
+    "Job_Corruption": " добавить {0} разврата случайной не полностью развращённой рабыне",
+    "Profession_Brigand_Passive": "Сила +10%. Свойство монстра: +1 секс до побега рабынь в Охотничьем лагере",
+    "Profession_Thief_Passive": "Сила +20%. Свойство монстра: +2 секса до побега рабынь в Охотничьем лагере",
+    "Profession_Marauder_Passive": "Сила +40%. Свойство монстра: +3 секса до побега рабынь в Охотничьем лагере",
+    "Profession_Plunderer_Passive": "Сила +60%. Свойство монстра: +4 секса до побега рабынь в Охотничьем лагере",
+    "Profession_Hunter_Passive": "Сила +20%",
+    "Profession_Knight_Passive": "Сила +40%",
+    "Profession_Warrior_Passive": "Сила +20%",
+    "Profession_Trainer_Passive": "Сила +40%. Свойство монстра: рабыни в сексе с ним быстрее набирают прогресс; +4 секса до побега рабынь в Охотничьем лагере"
+  }
+}

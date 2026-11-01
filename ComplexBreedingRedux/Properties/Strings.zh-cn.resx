@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PluginLoaded" xml:space="preserve">
+    <value>{0} v{1} 已加载！</value>
+  </data>
+  <data name="PluginDisabled" xml:space="preserve">
+    <value>{0}在配置中被禁用。</value>
+  </data>
+  <data name="Config_Enabled" xml:space="preserve">
+    <value>启用或禁用插件（需要重启）</value>
+  </data>
+  <data name="Config_AutoSellFemaleMode" xml:space="preserve">
+    <value>雌性子代的自动出售模式</value>
+  </data>
+  <data name="Config_AutoSellMaleMode" xml:space="preserve">
+    <value>雄性子代的自动出售模式</value>
+  </data>
+  <data name="AutoSell_SellAll" xml:space="preserve">
+    <value>全部贩卖</value>
+  </data>
+  <data name="AutoSell_DoNotSellAtLeastEqual" xml:space="preserve">
+    <value>贩卖源质降级</value>
+  </data>
+  <data name="AutoSell_DoNotSellBetter" xml:space="preserve">
+    <value>贩卖源质同级或降级</value>
+  </data>
+  <data name="AutoSell_DoNotSellAnyone" xml:space="preserve">
+    <value>不贩卖任何人</value>
+  </data>
+  <data name="AutoSell_EvoNoFilter" xml:space="preserve">
+    <value>无筛选器</value>
+  </data>
+  <data name="AutoSell_EvoDoNotSell" xml:space="preserve">
+    <value>不贩卖进化种族</value>
+  </data>
+  <data name="AutoSell_EvoCustom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Config_AutoSellFemaleEvoFilter" xml:space="preserve">
+    <value>雌性子代的进化筛选器</value>
+  </data>
+  <data name="Config_AutoSellDegradation" xml:space="preserve">
+    <value>贩卖种族退化的雌性子代</value>
+  </data>
+  <data name="Config_AutoMilkUp" xml:space="preserve">
+    <value>在种族需要时自动使用母乳</value>
+  </data>
+  <data name="Config_StartingSlaveSpecies" xml:space="preserve">
+    <value>选择初始奴隶种族</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Name" xml:space="preserve">
+    <value>腐化子宫</value>
+  </data>
+  <data name="Trait_CorruptedWomb_Desc" xml:space="preserve">
+    <value>受孕失败时恢复20%体力</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Name" xml:space="preserve">
+    <value>原始本能</value>
+  </data>
+  <data name="Trait_PrimalInstinct_Desc" xml:space="preserve">
+    <value>可连续多次进行交配而无需休息</value>
+  </data>
+  <data name="Trait_RobustBloodline_Name" xml:space="preserve">
+    <value>强健血脉</value>
+  </data>
+  <data name="Trait_RobustBloodline_Desc" xml:space="preserve">
+    <value>子代发生源质降级的概率降低75%</value>
+  </data>
+  <data name="Trait_UndyingSoul_Name" xml:space="preserve">
+    <value>不朽灵魂</value>
+  </data>
+  <data name="Trait_UndyingSoul_Desc" xml:space="preserve">
+    <value>死亡后，每日有75%的概率复活</value>
+  </data>
+  <data name="Trait_ViralResilience_Name" xml:space="preserve">
+    <value>病毒抗性</value>
+  </data>
+  <data name="Trait_ViralResilience_Desc" xml:space="preserve">
+    <value>对性病拥有绝对免疫</value>
+  </data>
+  <data name="Profession_Artificer_Name" xml:space="preserve">
+    <value>工匠</value>
+  </data>
+  <data name="Profession_Artificer_Desc" xml:space="preserve">
+    <value>技艺精湛的工匠，能够创造魔法物品并赋予其奥术能量</value>
+  </data>
+  <data name="Profession_Blacksmith_Name" xml:space="preserve">
+    <value>铁匠</value>
+  </data>
+  <data name="Profession_Blacksmith_Desc" xml:space="preserve">
+    <value>以熟铁或钢为主要材料制造物品的金属匠</value>
+  </data>
+  <data name="Profession_Cultist_Name" xml:space="preserve">
+    <value>密教徒</value>
+  </data>
+  <data name="Profession_Cultist_Desc" xml:space="preserve">
+    <value>黑暗密教的成员</value>
+  </data>
+  <data name="Profession_Farmhand_Name" xml:space="preserve">
+    <value>农民</value>
+  </data>
+  <data name="Profession_Farmhand_Desc" xml:space="preserve">
+    <value>农田中的简单助手</value>
+  </data>
+  <data name="Profession_Hunter_Name" xml:space="preserve">
+    <value>猎人</value>
+  </data>
+  <data name="Profession_Hunter_Desc" xml:space="preserve">
+    <value>一种以狩猎动物来获取食物及其他动物产品的职业</value>
+  </data>
+  <data name="Profession_Knight_Name" xml:space="preserve">
+    <value>骑士</value>
+  </data>
+  <data name="Profession_Knight_Desc" xml:space="preserve">
+    <value>骄傲且技艺娴熟的近战战士，为荣誉与骑士精神而战</value>
+  </data>
+  <data name="Profession_Maid_Name" xml:space="preserve">
+    <value>女仆</value>
+  </data>
+  <data name="Profession_Maid_Desc" xml:space="preserve">
+    <value>负责保持房间整洁</value>
+  </data>
+  <data name="Profession_Paladin_Name" xml:space="preserve">
+    <value>圣骑士</value>
+  </data>
+  <data name="Profession_Paladin_Desc" xml:space="preserve">
+    <value>神圣的骑士，为善与秩序而征战</value>
+  </data>
+  <data name="Profession_Priest_Name" xml:space="preserve">
+    <value>牧师</value>
+  </data>
+  <data name="Profession_Priest_Desc" xml:space="preserve">
+    <value>精神领袖与治愈者</value>
+  </data>
+  <data name="Profession_Princess_Name" xml:space="preserve">
+    <value>公主</value>
+  </data>
+  <data name="Profession_Princess_Desc" xml:space="preserve">
+    <value>来自遥远之地的国王之女</value>
+  </data>
+  <data name="Profession_Warrior_Name" xml:space="preserve">
+    <value>战士</value>
+  </data>
+  <data name="Profession_Warrior_Desc" xml:space="preserve">
+    <value>强大的近战战士，偏好与敌人近身肉搏</value>
+  </data>
+  <data name="Profession_Witch_Name" xml:space="preserve">
+    <value>女巫</value>
+  </data>
+  <data name="Profession_Witch_Desc" xml:space="preserve">
+    <value>利用自然魔法来驱动法术与可怕的诅咒</value>
+  </data>
+  <data name="Profession_Wizard_Name" xml:space="preserve">
+    <value>法师</value>
+  </data>
+  <data name="Profession_Wizard_Desc" xml:space="preserve">
+    <value>一位能够施展魔法的女智者</value>
+  </data>
+  <data name="Species_Aasimar_Name" xml:space="preserve">
+    <value>神裔</value>
+  </data>
+  <data name="Species_Angel_Name" xml:space="preserve">
+    <value>天使</value>
+  </data>
+  <data name="Species_ArcticWerewolf_Name" xml:space="preserve">
+    <value>雪狼人</value>
+  </data>
+  <data name="Species_Bugbear_Name" xml:space="preserve">
+    <value>熊地精</value>
+  </data>
+  <data name="Species_Dairycow_Name" xml:space="preserve">
+    <value>奶牛</value>
+  </data>
+  <data name="Species_Dhampir_Name" xml:space="preserve">
+    <value>半血裔</value>
+  </data>
+  <data name="Species_FallenAngel_Name" xml:space="preserve">
+    <value>堕天使</value>
+  </data>
+  <data name="Species_Genasi_Name" xml:space="preserve">
+    <value>元素裔</value>
+  </data>
+  <data name="Species_MagicWererabbit_Name" xml:space="preserve">
+    <value>魔兔人</value>
+  </data>
+  <data name="Species_MoonElf_Name" xml:space="preserve">
+    <value>月精灵</value>
+  </data>
+  <data name="Species_Weretiger_Name" xml:space="preserve">
+    <value>虎人</value>
+  </data>
+  <data name="Species_Devil_Name" xml:space="preserve">
+    <value>魔鬼</value>
+  </data>
+  <data name="Species_Dracolich_Name" xml:space="preserve">
+    <value>龙巫妖</value>
+  </data>
+  <data name="Species_Dragon_Name" xml:space="preserve">
+    <value>巨龙</value>
+  </data>
+  <data name="Species_Drake_Name" xml:space="preserve">
+    <value>亚龙</value>
+  </data>
+  <data name="Species_Drow_Name" xml:space="preserve">
+    <value>暗精灵</value>
+  </data>
+  <data name="Species_Fairy_Name" xml:space="preserve">
+    <value>妖精</value>
+  </data>
+  <data name="Species_Ghoul_Name" xml:space="preserve">
+    <value>食尸鬼</value>
+  </data>
+  <data name="Species_Goblin_Name" xml:space="preserve">
+    <value>哥布林</value>
+  </data>
+  <data name="Species_Golem_Name" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Species_Hobgoblin_Name" xml:space="preserve">
+    <value>大地精</value>
+  </data>
+  <data name="Species_Horse_Name" xml:space="preserve">
+    <value>马兽人</value>
+  </data>
+  <data name="Species_Kitsune_Name" xml:space="preserve">
+    <value>狐兽人</value>
+  </data>
+  <data name="Species_Mermaid_Name" xml:space="preserve">
+    <value>海精灵</value>
+  </data>
+  <data name="Species_Minotaur_Name" xml:space="preserve">
+    <value>牛头人</value>
+  </data>
+  <data name="Species_Nekomata_Name" xml:space="preserve">
+    <value>小恶魔</value>
+  </data>
+  <data name="Species_Orc_Name" xml:space="preserve">
+    <value>兽人</value>
+  </data>
+  <data name="Species_Redcap_Name" xml:space="preserve">
+    <value>红帽子</value>
+  </data>
+  <data name="Species_Salamander_Name" xml:space="preserve">
+    <value>沙罗曼达</value>
+  </data>
+  <data name="Species_Slime_Name" xml:space="preserve">
+    <value>史莱姆</value>
+  </data>
+  <data name="Species_Succubus_Name" xml:space="preserve">
+    <value>魅魔</value>
+  </data>
+  <data name="Species_Vampire_Name" xml:space="preserve">
+    <value>吸血鬼</value>
+  </data>
+  <data name="Species_Wererabbit_Name" xml:space="preserve">
+    <value>兔人</value>
+  </data>
+  <data name="Species_Werewolf_Name" xml:space="preserve">
+    <value>狼人</value>
+  </data>
+  <data name="SpeciesCore_Elf_Name" xml:space="preserve">
+    <value>精灵</value>
+  </data>
+  <data name="SpeciesCore_Gnome_Name" xml:space="preserve">
+    <value>矮人</value>
+  </data>
+  <data name="SpeciesCore_Human_Name" xml:space="preserve">
+    <value>人类</value>
+  </data>
+  <data name="SpeciesCore_Imp_Name" xml:space="preserve">
+    <value>猫兽人</value>
+  </data>
+  <data name="SpeciesCore_Lizard_Name" xml:space="preserve">
+    <value>龙人</value>
+  </data>
+  <data name="SpeciesCore_Rabbit_Name" xml:space="preserve">
+    <value>兔兽人</value>
+  </data>
+  <data name="SpeciesCore_Sheep_Name" xml:space="preserve">
+    <value>羊兽人</value>
+  </data>
+  <data name="SpeciesCore_Wolf_Name" xml:space="preserve">
+    <value>犬兽人</value>
+  </data>
+  <data name="Attr_ConceptionRate" xml:space="preserve">
+    <value>受孕率</value>
+  </data>
+  <data name="Attr_SexTime" xml:space="preserve">
+    <value>交配时间</value>
+  </data>
+  <data name="Attr_GrowthTime" xml:space="preserve">
+    <value>成长时间</value>
+  </data>
+  <data name="Attr_MaintenanceCost" xml:space="preserve">
+    <value>维护成本</value>
+  </data>
+  <data name="Attr_DamageDuringSex" xml:space="preserve">
+    <value>交配时奴隶的体力消耗量/秒</value>
+  </data>
+  <data name="Attr_MilkQuality" xml:space="preserve">
+    <value>母乳品质</value>
+  </data>
+  <data name="Attr_MaxBirthCount" xml:space="preserve">
+    <value>最大生产次数</value>
+  </data>
+  <data name="Attr_MaxConcurrentConceptions" xml:space="preserve">
+    <value>最大多胎怀孕数</value>
+  </data>
+  <data name="Attr_DamageDuringPregnancy" xml:space="preserve">
+    <value>怀孕时体力消耗量/秒</value>
+  </data>
+  <data name="Attr_Crest" xml:space="preserve">
+    <value>淫纹</value>
+  </data>
+  <data name="Attr_RemoveCrest" xml:space="preserve">
+    <value>撤除淫纹</value>
+  </data>
+  <data name="Attr_OldMilk" xml:space="preserve">
+    <value>旧母乳</value>
+  </data>
+  <data name="Label_Profession" xml:space="preserve">
+    <value>职业:</value>
+  </data>
+  <data name="Label_Trait" xml:space="preserve">
+    <value>特质:</value>
+  </data>
+  <data name="Tooltip_Allow" xml:space="preserve">
+    <value>允许:</value>
+  </data>
+  <data name="Tooltip_HaveSlavesOffspringWith" xml:space="preserve">
+    <value>可生育奴隶后代的交配对象:</value>
+  </data>
+  <data name="Tooltip_Characteristics" xml:space="preserve">
+    <value>特征:</value>
+  </data>
+  <data name="Tooltip_Affecting" xml:space="preserve">
+    <value>影响:</value>
+  </data>
+  <data name="Tooltip_Inheritance" xml:space="preserve">
+    <value>继承:</value>
+  </data>
+  <data name="Tooltip_Slave" xml:space="preserve">
+    <value>奴隶</value>
+  </data>
+  <data name="Tooltip_Monster" xml:space="preserve">
+    <value>怪物</value>
+  </data>
+  <data name="Tooltip_Tier" xml:space="preserve">
+    <value>等级:</value>
+  </data>
+  <data name="Tooltip_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Tooltip_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Tooltip_Probability" xml:space="preserve">
+    <value>概率</value>
+  </data>
+  <data name="Tooltip_HaveEssences" xml:space="preserve">
+    <value>拥有源质:</value>
+  </data>
+  <data name="Tooltip_IsSpecies" xml:space="preserve">
+    <value>种族为:</value>
+  </data>
+  <data name="Tooltip_OneParentHasTrait" xml:space="preserve">
+    <value>父母之一拥有此特征</value>
+  </data>
+  <data name="Tooltip_EmergenceRequirements" xml:space="preserve">
+    <value>出现条件:</value>
+  </data>
+  <data name="Tooltip_Or" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="Tooltip_Teachable" xml:space="preserve">
+    <value>可传授:</value>
+  </data>
+  <data name="Tooltip_DailyInClassroom" xml:space="preserve">
+    <value>每日在教室:</value>
+  </data>
+  <data name="Tooltip_Work" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="Tooltip_WorkAlways" xml:space="preserve">
+    <value>总是</value>
+  </data>
+  <data name="Tooltip_WorkDepraved" xml:space="preserve">
+    <value>已堕落</value>
+  </data>
+  <data name="Tooltip_WorkNotDepraved" xml:space="preserve">
+    <value>未堕落</value>
+  </data>
+  <data name="Job_RoomCleaning" xml:space="preserve">
+    <value> 打扫{0}间房间</value>
+  </data>
+  <data name="Job_EarningMoney" xml:space="preserve">
+    <value> 赚取{0}g-{1}g</value>
+  </data>
+  <data name="Job_Healing" xml:space="preserve">
+    <value> 恢复随机奴隶{0}%-{1}%的体力</value>
+  </data>
+  <data name="Job_SummonPixy" xml:space="preserve">
+    <value> 召唤{0}只妖精</value>
+  </data>
+  <data name="Job_HelpingNiel" xml:space="preserve">
+    <value> 增加{0}点妮艾尔的好感度</value>
+  </data>
+  <data name="Job_HelpingFlora" xml:space="preserve">
+    <value> 增加{0}点弗洛拉的好感度</value>
+  </data>
+  <data name="Job_HelpingBarbara" xml:space="preserve">
+    <value> 增加{0}点芭芭拉的好感度</value>
+  </data>
+  <data name="Job_Corruption" xml:space="preserve">
+    <value> 向随机未完全堕落的奴隶添加 {0} 点堕落值</value>
+  </data>
+  <data name="Job_Cleansing" xml:space="preserve">
+    <value> 从随机未完全堕落的奴隶身上移除 {0} 点堕落值</value>
+  </data>
+  <data name="Job_CreateGolem" xml:space="preserve">
+    <value> 召唤元素</value>
+  </data>
+  <data name="Tooltip_Wealth" xml:space="preserve">
+    <value>财富:</value>
+  </data>
+  <data name="Tooltip_VenerealDisease" xml:space="preserve">
+    <value>性病:</value>
+  </data>
+  <data name="Tooltip_Preferences" xml:space="preserve">
+    <value>偏好:</value>
+  </data>
+  <data name="Tooltip_Reputation" xml:space="preserve">
+    <value>声望:</value>
+  </data>
+  <data name="Pref_Rarity" xml:space="preserve">
+    <value>稀有度:至少为</value>
+  </data>
+  <data name="Pref_Personality" xml:space="preserve">
+    <value>性格:</value>
+  </data>
+  <data name="Pref_NotDepraved" xml:space="preserve">
+    <value>未堕落</value>
+  </data>
+  <data name="Pref_Depraved" xml:space="preserve">
+    <value>已堕落</value>
+  </data>
+  <data name="Pref_Height" xml:space="preserve">
+    <value>身高:</value>
+  </data>
+  <data name="Pref_HeightSmall" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="Pref_HeightAverage" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Pref_Breasts" xml:space="preserve">
+    <value>胸部:</value>
+  </data>
+  <data name="Pref_BreastsFlat" xml:space="preserve">
+    <value>无乳</value>
+  </data>
+  <data name="Pref_BreastsSmall" xml:space="preserve">
+    <value>贫乳</value>
+  </data>
+  <data name="Pref_BreastsAverage" xml:space="preserve">
+    <value>正乳</value>
+  </data>
+  <data name="Pref_BreastsBig" xml:space="preserve">
+    <value>美乳</value>
+  </data>
+  <data name="Pref_BreastsHuge" xml:space="preserve">
+    <value>巨乳</value>
+  </data>
+  <data name="Pref_BreastsExtra" xml:space="preserve">
+    <value>爆乳</value>
+  </data>
+  <data name="Tooltip_HealthRegen" xml:space="preserve">
+    <value>体力恢复:</value>
+  </data>
+  <data name="Tooltip_MilkRate" xml:space="preserve">
+    <value>母乳生产速率:</value>
+  </data>
+  <data name="Tooltip_BreastsCapacity" xml:space="preserve">
+    <value>乳房容量:</value>
+  </data>
+  <data name="Tooltip_OwnSpeciesBirth" xml:space="preserve">
+    <value>该种族诞生于:</value>
+  </data>
+  <data name="Tooltip_LowerSpeciesChanceBirth" xml:space="preserve">
+    <value>后代退化概率:</value>
+  </data>
+  <data name="Tooltip_ConceptionFailureChance" xml:space="preserve">
+    <value>受孕失败的概率:</value>
+  </data>
+  <data name="Tooltip_PossibleSpecies" xml:space="preserve">
+    <value>可能诞生的种族:</value>
+  </data>
+  <data name="Tooltip_Males" xml:space="preserve">
+    <value>雄性:</value>
+  </data>
+  <data name="Tooltip_Base" xml:space="preserve">
+    <value>基础值</value>
+  </data>
+  <data name="Tooltip_HasDisease" xml:space="preserve">
+    <value>患有性病</value>
+  </data>
+  <data name="Tooltip_HealthLow" xml:space="preserve">
+    <value>体力 &lt; 25%</value>
+  </data>
+  <data name="Tooltip_HealthHigh" xml:space="preserve">
+    <value>体力 &gt; 75%</value>
+  </data>
+  <data name="Tooltip_Depravation" xml:space="preserve">
+    <value>堕落</value>
+  </data>
+  <data name="State_Young" xml:space="preserve">
+    <value>幼体</value>
+  </data>
+  <data name="State_SlavePrice" xml:space="preserve">
+    <value>奴隶价格:</value>
+  </data>
+  <data name="State_MilkPrice" xml:space="preserve">
+    <value>母乳价格:</value>
+  </data>
+  <data name="State_Breasts" xml:space="preserve">
+    <value>胸部:</value>
+  </data>
+  <data name="State_Milk" xml:space="preserve">
+    <value>母乳:</value>
+  </data>
+  <data name="State_Womb" xml:space="preserve">
+    <value>子宫:</value>
+  </data>
+  <data name="State_WombStretch" xml:space="preserve">
+    <value>撑大中:</value>
+  </data>
+  <data name="Trait_Upgraded" xml:space="preserve">
+    <value>已升级</value>
+  </data>
+  <data name="Trait_Downgraded" xml:space="preserve">
+    <value>降级</value>
+  </data>
+  <data name="Item_PixieSummonDust" xml:space="preserve">
+    <value>妖精召唤粉尘</value>
+  </data>
+  <data name="Attr_BreastsCapacity" xml:space="preserve">
+    <value>乳房容量</value>
+  </data>
+  <data name="Attr_MaxHealth" xml:space="preserve">
+    <value>最大体力</value>
+  </data>
+  <data name="Attr_MilkProductionRate" xml:space="preserve">
+    <value>母乳产量/秒</value>
+  </data>
+  <data name="Attr_DepravationGain" xml:space="preserve">
+    <value>每日堕落值获得</value>
+  </data>
+  <data name="State_MilkPriceUnit" xml:space="preserve">
+    <value>g/瓶</value>
+  </data>
+  <data name="Breast_Flat" xml:space="preserve">
+    <value>无乳</value>
+  </data>
+  <data name="Breast_Small" xml:space="preserve">
+    <value>贫乳</value>
+  </data>
+  <data name="Breast_Average" xml:space="preserve">
+    <value>正乳</value>
+  </data>
+  <data name="Breast_Big" xml:space="preserve">
+    <value>美乳</value>
+  </data>
+  <data name="Breast_Huge" xml:space="preserve">
+    <value>巨乳</value>
+  </data>
+  <data name="Breast_Extra" xml:space="preserve">
+    <value>爆乳</value>
+  </data>
+  <data name="Womb_Small" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="Womb_Average" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Womb_Big" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="Womb_Huge" xml:space="preserve">
+    <value>巨大</value>
+  </data>
+  <data name="Womb_Enormous" xml:space="preserve">
+    <value>特大</value>
+  </data>
+  <data name="Tier_Common" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Tier_Uncommon" xml:space="preserve">
+    <value>罕见</value>
+  </data>
+  <data name="Tier_Rare" xml:space="preserve">
+    <value>稀有</value>
+  </data>
+  <data name="Tier_Epic" xml:space="preserve">
+    <value>史诗</value>
+  </data>
+  <data name="Tier_Legendary" xml:space="preserve">
+    <value>传说</value>
+  </data>
+  <data name="JobName_Foraging" xml:space="preserve">
+    <value>采集</value>
+  </data>
+  <data name="JobName_Hunting" xml:space="preserve">
+    <value>狩猎</value>
+  </data>
+  <data name="JobName_CraftingTools" xml:space="preserve">
+    <value>制作工具</value>
+  </data>
+  <data name="JobName_CraftingArtifacts" xml:space="preserve">
+    <value>制作神器</value>
+  </data>
+  <data name="JobName_Cleaning" xml:space="preserve">
+    <value>房间清洁</value>
+  </data>
+  <data name="JobName_Healing" xml:space="preserve">
+    <value>包扎伤口</value>
+  </data>
+  <data name="JobName_HealingSpell" xml:space="preserve">
+    <value>施放治愈法术</value>
+  </data>
+  <data name="JobName_SummonPixy" xml:space="preserve">
+    <value>召唤伙伴</value>
+  </data>
+  <data name="JobName_HelpingNiel" xml:space="preserve">
+    <value>实验室协助</value>
+  </data>
+  <data name="JobName_HelpingFlora" xml:space="preserve">
+    <value>诊所协助</value>
+  </data>
+  <data name="JobName_HelpingBarbara" xml:space="preserve">
+    <value>工坊协助</value>
+  </data>
+  <data name="JobName_Adventuring" xml:space="preserve">
+    <value>冒险</value>
+  </data>
+  <data name="JobName_Witchcraft" xml:space="preserve">
+    <value>巫术服务</value>
+  </data>
+  <data name="JobName_WitchcraftBig" xml:space="preserve">
+    <value>出售诅咒</value>
+  </data>
+  <data name="JobName_PreachingCorruption" xml:space="preserve">
+    <value>宣扬堕落</value>
+  </data>
+  <data name="JobName_CleansingDepravation" xml:space="preserve">
+    <value>灵魂净化</value>
+  </data>
+  <data name="JobName_CreateGolem" xml:space="preserve">
+    <value>元素召唤</value>
+  </data>
+  <data name="Work_Prefix" xml:space="preserve">
+    <value>[工作]</value>
+  </data>
+  <data name="Work_CleanedRoom" xml:space="preserve">
+    <value>由{0}({1})清洁</value>
+  </data>
+  <data name="Work_HealedSlave" xml:space="preserve">
+    <value>{1}({2})恢复了{0}%的体力</value>
+  </data>
+  <data name="Work_AddedDepravation" xml:space="preserve">
+    <value>{1}({2})加深了了{0}的堕落程度</value>
+  </data>
+  <data name="Work_RemovedDepravation" xml:space="preserve">
+    <value>{1}({2})净化了{0}的堕落程度</value>
+  </data>
+  <data name="Item_PixySummoned" xml:space="preserve">
+    <value>妖精已召唤！</value>
+  </data>
+  <data name="Popup_WombDilated" xml:space="preserve">
+    <value>子宫已扩大！</value>
+  </data>
+  <data name="Popup_UndyingSoul" xml:space="preserve">
+    <value>不朽灵魂</value>
+  </data>
+  <data name="Popup_DepravationIgnored" xml:space="preserve">
+    <value>已无效({0})</value>
+  </data>
+  <data name="Msg_CountIsZero" xml:space="preserve">
+    <value>该物品数量为 0。</value>
+  </data>
+  <data name="Label_BloodlineTitle" xml:space="preserve">
+    <value>特性</value>
+  </data>
+  <data name="Bloodline_Demon_Name" xml:space="preserve">
+    <value>恶魔血脉</value>
+  </data>
+  <data name="Bloodline_Demon_Desc" xml:space="preserve">
+    <value>被恶魔力量侵蚀的血脉。</value>
+  </data>
+  <data name="Bloodline_Monster_Name" xml:space="preserve">
+    <value>怪物血脉</value>
+  </data>
+  <data name="Bloodline_Monster_Desc" xml:space="preserve">
+    <value>被怪物力量强化的血脉。</value>
+  </data>
+  <data name="Bloodline_Wild_Name" xml:space="preserve">
+    <value>野性血脉</value>
+  </data>
+  <data name="Bloodline_Wild_Desc" xml:space="preserve">
+    <value>与野性力量融合的血脉。</value>
+  </data>
+  <data name="Bloodline_Divine_Name" xml:space="preserve">
+    <value>神圣血脉</value>
+  </data>
+  <data name="Bloodline_Divine_Desc" xml:space="preserve">
+    <value>被神圣力量祝福的血脉。</value>
+  </data>
+  <data name="Bloodline_Magic_Name" xml:space="preserve">
+    <value>魔力血脉</value>
+  </data>
+  <data name="Bloodline_Magic_Desc" xml:space="preserve">
+    <value>被魔法力量侵蚀的血脉。</value>
+  </data>
+  <data name="Bloodline_Elemental_Name" xml:space="preserve">
+    <value>元素血脉</value>
+  </data>
+  <data name="Bloodline_Elemental_Desc" xml:space="preserve">
+    <value>与元素力量融合的血脉。</value>
+  </data>
+  <data name="Bloodline_Nature_Name" xml:space="preserve">
+    <value>自然血脉</value>
+  </data>
+  <data name="Bloodline_Nature_Desc" xml:space="preserve">
+    <value>被自然力量祝福的血脉。</value>
+  </data>
+  <data name="Bloodline_Dragon_Name" xml:space="preserve">
+    <value>龙之血脉</value>
+  </data>
+  <data name="Bloodline_Dragon_Desc" xml:space="preserve">
+    <value>被龙的力量强化的血脉。</value>
+  </data>
+  <data name="Bloodline_Tooltip_CurrentLevel" xml:space="preserve">
+    <value>当前等级：{0}</value>
+  </data>
+  <data name="Bloodline_Tooltip_PerLevel" xml:space="preserve">
+    <value>每级效果：</value>
+  </data>
+  <data name="Bloodline_Tooltip_Monster" xml:space="preserve">
+    <value>怪物效果：</value>
+  </data>
+  <data name="Bloodline_Line_SexTime" xml:space="preserve">
+    <value>每级交配时间 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_MentalityCost" xml:space="preserve">
+    <value>每级体力消耗量 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_Food" xml:space="preserve">
+    <value>每级维护费用 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_Growth" xml:space="preserve">
+    <value>每级婴儿成长时间 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_Conception" xml:space="preserve">
+    <value>每级生育率 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_Shield" xml:space="preserve">
+    <value>每级防护结界 {0}（仅女性，当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_FactionReputation" xml:space="preserve">
+    <value>堕落时{0}营业声望获取速度为{1}倍（每级+0.5）</value>
+  </data>
+  <data name="Bloodline_Line_MilkDepraved" xml:space="preserve">
+    <value>堕落时高潮有 {0}% 几率获得{1}（每级 +5%）</value>
+  </data>
+  <data name="Bloodline_Line_Milk" xml:space="preserve">
+    <value>高潮有 {0}% 几率获得{1}（每级 +5%）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSpeed" xml:space="preserve">
+    <value>交配时女性敏感度每级提升 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterShield" xml:space="preserve">
+    <value>中出时女性防护结界每级 {0}（当前 {1}）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterUpgrade" xml:space="preserve">
+    <value>中出时女性有 {0}% 几率触发特质升级（当前 {1}%）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterStamina" xml:space="preserve">
+    <value>中出时女性有 {0}% 几率恢复 50% 体力（当前 {1}%）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTimePerLevel" xml:space="preserve">
+    <value>交配时间 {0}（每级+{1}s）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentalityPerLevel" xml:space="preserve">
+    <value>体力消耗量 {0}（每级+{1}）</value>
+  </data>
+  <data name="Bloodline_Line_MonsterSexTime" xml:space="preserve">
+    <value>交配时间 {0}</value>
+  </data>
+  <data name="Bloodline_Line_MonsterMentality" xml:space="preserve">
+    <value>体力消耗量 {0}</value>
+  </data>
+  <data name="Bloodline_Popup_Milk" xml:space="preserve">
+    <value>血脉：+1 {0}</value>
+  </data>
+  <data name="Bloodline_Popup_ShieldDrain" xml:space="preserve">
+    <value>血脉（{0}）：防护结界 -{1}</value>
+  </data>
+  <data name="Bloodline_Popup_Upgrade" xml:space="preserve">
+    <value>特质升级</value>
+  </data>
+  <data name="Bloodline_Popup_Stamina" xml:space="preserve">
+    <value>精华疗愈</value>
+  </data>
+  <data name="RoomSkill_HunterCampDisplay" xml:space="preserve">
+    <value>猎手营地 战斗力:{0}</value>
+  </data>
+  <data name="HunterCamp_CapturedLog" xml:space="preserve">
+    <value>[猎手营地] {0} 捕捉到了新奴隶：{1}（{2} / {3}）消耗金币 {4}、战斗力 {5}</value>
+  </data>
+  <data name="HunterCamp_PopCaptured" xml:space="preserve">
+    <value>捕捉成功！</value>
+  </data>
+  <data name="HunterCamp_SpawnLog" xml:space="preserve">
+    <value>[猎手营地] 捕获到新奴隶：{0}（消耗金币 {1}）</value>
+  </data>
+  <data name="HunterCamp_SpawnPop" xml:space="preserve">
+    <value>捕获成功！</value>
+  </data>
+  <data name="HunterCamp_EscapeLog" xml:space="preserve">
+    <value>[猎手营地] 俘虏 {0} 逃跑了！损失金币 {1}</value>
+  </data>
+  <data name="HunterCamp_EscapePop" xml:space="preserve">
+    <value>-{0}</value>
+  </data>
+  <data name="Faction_Kingdom_Name" xml:space="preserve">
+    <value>王国派系</value>
+  </data>
+  <data name="Faction_Sect_Name" xml:space="preserve">
+    <value>宗教教团</value>
+  </data>
+  <data name="Faction_Demonic_Name" xml:space="preserve">
+    <value>恶魔派系</value>
+  </data>
+  <data name="Faction_Conclave_Name" xml:space="preserve">
+    <value>奥秘议会</value>
+  </data>
+  <data name="Faction_Monster_Name" xml:space="preserve">
+    <value>怪物派系</value>
+  </data>
+  <data name="FactionRep_Unknown" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;无人问津&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Obscure" xml:space="preserve">
+    <value>&lt;color=#9e97a3&gt;鲜为人知&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Insignificant" xml:space="preserve">
+    <value>&lt;color=#FFFFFF&gt;微不足道&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Noteworthy" xml:space="preserve">
+    <value>&lt;color=#008000&gt;值得关注&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Reputable" xml:space="preserve">
+    <value>&lt;color=#4F8ACF&gt;崭露头角&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Significant" xml:space="preserve">
+    <value>&lt;color=#BA65C1&gt;享有盛名&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Famous" xml:space="preserve">
+    <value>&lt;color=#930EF1&gt;声名卓著&lt;/color&gt;</value>
+  </data>
+  <data name="FactionRep_Fabled" xml:space="preserve">
+    <value>&lt;color=#FFA500&gt;举世闻名&lt;/color&gt;</value>
+  </data>
+  <data name="PrefType_Pussy" xml:space="preserve">
+    <value>阴道</value>
+  </data>
+  <data name="PrefType_Fellatio" xml:space="preserve">
+    <value>口交</value>
+  </data>
+  <data name="PrefType_Anal" xml:space="preserve">
+    <value>肛交</value>
+  </data>
+  <data name="PrefType_Paizuri" xml:space="preserve">
+    <value>乳交</value>
+  </data>
+  <data name="PrefType_Bestiality" xml:space="preserve">
+    <value>兽交</value>
+  </data>
+  <data name="PrefType_Birth" xml:space="preserve">
+    <value>分娩秀</value>
+  </data>
+  <data name="PrefType_Vip" xml:space="preserve">
+    <value>贵宾</value>
+  </data>
+  <data name="PrefType_Vvip" xml:space="preserve">
+    <value>超贵宾</value>
+  </data>
+  <data name="Label_Preference" xml:space="preserve">
+    <value>偏好: </value>
+  </data>
+  <data name="Profession_Brigand_Name" xml:space="preserve">
+    <value>强盗</value>
+  </data>
+  <data name="Profession_Brigand_Desc" xml:space="preserve">
+    <value>荒野中的不法之徒</value>
+  </data>
+  <data name="Profession_Assassin_Name" xml:space="preserve">
+    <value>刺客</value>
+  </data>
+  <data name="Profession_Assassin_Desc" xml:space="preserve">
+    <value>擅长使用毒药的刺客。</value>
+  </data>
+  <data name="Profession_Thief_Name" xml:space="preserve">
+    <value>盗贼</value>
+  </data>
+  <data name="Profession_Thief_Desc" xml:space="preserve">
+    <value>偷盗技术娴熟的不法之徒</value>
+  </data>
+  <data name="Profession_Marauder_Name" xml:space="preserve">
+    <value>掠夺者</value>
+  </data>
+  <data name="Profession_Marauder_Desc" xml:space="preserve">
+    <value>擅长抢夺的不法之徒</value>
+  </data>
+  <data name="Profession_Plunderer_Name" xml:space="preserve">
+    <value>劫掠者</value>
+  </data>
+  <data name="Profession_Plunderer_Desc" xml:space="preserve">
+    <value>极为强大的不法之徒</value>
+  </data>
+  <data name="Profession_Apothecary_Name" xml:space="preserve">
+    <value>药剂师</value>
+  </data>
+  <data name="Profession_Apothecary_Desc" xml:space="preserve">
+    <value>掌握各种药草知识的制药者。</value>
+  </data>
+  <data name="Profession_DarkPriest_Name" xml:space="preserve">
+    <value>黑暗祭司</value>
+  </data>
+  <data name="Profession_DarkPriest_Desc" xml:space="preserve">
+    <value>掌握黑暗力量的施法者。</value>
+  </data>
+  <data name="Profession_Merchant_Name" xml:space="preserve">
+    <value>商人</value>
+  </data>
+  <data name="Profession_Merchant_Desc" xml:space="preserve">
+    <value>负责各种商业活动。</value>
+  </data>
+  <data name="Profession_Alchemist_Name" xml:space="preserve">
+    <value>炼金术师</value>
+  </data>
+  <data name="Profession_Alchemist_Desc" xml:space="preserve">
+    <value>能够制作各种神奇的炼金物品。</value>
+  </data>
+  <data name="Profession_Hero_Name" xml:space="preserve">
+    <value>勇者</value>
+  </data>
+  <data name="Profession_Hero_Desc" xml:space="preserve">
+    <value>传说中拥有神奇力量的战士。</value>
+  </data>
+  <data name="Profession_Trainer_Name" xml:space="preserve">
+    <value>调教师</value>
+  </data>
+  <data name="Profession_Trainer_Desc" xml:space="preserve">
+    <value>黑市商人的优秀助手</value>
+  </data>
+  <data name="JobName_PotionCrafting" xml:space="preserve">
+    <value>制作药剂</value>
+  </data>
+  <data name="JobName_WitchcraftPotion" xml:space="preserve">
+    <value>巫术药剂</value>
+  </data>
+  <data name="JobName_Commerce" xml:space="preserve">
+    <value>商业活动</value>
+  </data>
+  <data name="JobName_AbilitySharing" xml:space="preserve">
+    <value>能力分享</value>
+  </data>
+  <data name="JobName_DepravedTraining" xml:space="preserve">
+    <value>堕落训练</value>
+  </data>
+  <data name="JobName_DarkRitual" xml:space="preserve">
+    <value>黑暗祭祀</value>
+  </data>
+  <data name="JobName_HormoneExtraction" xml:space="preserve">
+    <value>激素提取</value>
+  </data>
+  <data name="Job_ObtainItem" xml:space="preserve">
+    <value> 获得{0}</value>
+  </data>
+  <data name="Job_RemoveShield" xml:space="preserve">
+    <value> 随机消除一名奴隶{0}点防护结界</value>
+  </data>
+  <data name="Work_RemovedShield" xml:space="preserve">
+    <value>{1}({2})消除了{0}点防护结界</value>
+  </data>
+  <data name="ItemName_BodyFluid" xml:space="preserve">
+    <value>体液</value>
+  </data>
+  <data name="ItemName_GoblinSemen" xml:space="preserve">
+    <value>哥布林精液</value>
+  </data>
+  <data name="ItemName_OrcHeart" xml:space="preserve">
+    <value>兽人心脏</value>
+  </data>
+  <data name="ItemName_WerewolfTail" xml:space="preserve">
+    <value>狼人尾巴</value>
+  </data>
+  <data name="ItemName_DragonTailMeat" xml:space="preserve">
+    <value>龙尾肉</value>
+  </data>
+  <data name="ItemName_DawrfHeart" xml:space="preserve">
+    <value>矮人心脏</value>
+  </data>
+  <data name="ItemName_HealthRecoveryInjection" xml:space="preserve">
+    <value>体力恢复药</value>
+  </data>
+  <data name="ItemName_MammaryGlandRecoveryInjection" xml:space="preserve">
+    <value>乳腺恢复药</value>
+  </data>
+  <data name="ItemName_OvumRecoveryInjection" xml:space="preserve">
+    <value>卵巢恢复药</value>
+  </data>
+  <data name="ItemName_Item_Aphrodisiac" xml:space="preserve">
+    <value>春药</value>
+  </data>
+  <data name="ItemName_Item_ViOgra" xml:space="preserve">
+    <value>壮阳药</value>
+  </data>
+  <data name="ItemName_Item_TraitUpgradePill" xml:space="preserve">
+    <value>特质升级药</value>
+  </data>
+  <data name="ItemName_HumanMilk" xml:space="preserve">
+    <value>人类母乳</value>
+  </data>
+  <data name="ItemName_LoliMilk" xml:space="preserve">
+    <value>萝莉母乳</value>
+  </data>
+  <data name="ItemName_ElfMilk" xml:space="preserve">
+    <value>精灵母乳</value>
+  </data>
+  <data name="ItemName_DwarfMilk" xml:space="preserve">
+    <value>矮人母乳</value>
+  </data>
+  <data name="ItemName_FurryMilk" xml:space="preserve">
+    <value>兽人母乳</value>
+  </data>
+  <data name="ItemName_SmallFurryMilk" xml:space="preserve">
+    <value>小兽人母乳</value>
+  </data>
+  <data name="ItemName_DragonianMilk" xml:space="preserve">
+    <value>龙裔母乳</value>
+  </data>
+  <data name="ItemText_LoliMilk" xml:space="preserve">
+    <value>从幼女身上榨取的母乳。&lt;BR&gt;特征是不成熟的味道。&lt;BR&gt;可以让肉体成长。且有15%的机率会发生以下其中一个效果。&lt;BR&gt;&lt;color=#FF0000&gt;交配时增加体力消耗量 +0.05&lt;BR&gt;交配时间 +5秒&lt;/color&gt;</value>
+  </data>
+  <data name="Profession_Brigand_Passive" xml:space="preserve">
+    <value>战斗力+10%。怪物属性：猎手营地内奴隶逃跑前交配次数+1</value>
+  </data>
+  <data name="Profession_Thief_Passive" xml:space="preserve">
+    <value>战斗力+20%。怪物属性：猎手营地内奴隶逃跑前交配次数+2</value>
+  </data>
+  <data name="Profession_Marauder_Passive" xml:space="preserve">
+    <value>战斗力+40%。怪物属性：猎手营地内奴隶逃跑前交配次数+3</value>
+  </data>
+  <data name="Profession_Plunderer_Passive" xml:space="preserve">
+    <value>战斗力+60%。怪物属性：猎手营地内奴隶逃跑前交配次数+4</value>
+  </data>
+  <data name="Profession_Warrior_Passive" xml:space="preserve">
+    <value>战斗力+20%</value>
+  </data>
+  <data name="Profession_Hunter_Passive" xml:space="preserve">
+    <value>战斗力+20%</value>
+  </data>
+  <data name="Profession_Knight_Passive" xml:space="preserve">
+    <value>战斗力+40%</value>
+  </data>
+  <data name="Profession_Assassin_Passive" xml:space="preserve">
+    <value>战斗力+20%</value>
+  </data>
+  <data name="Profession_Paladin_Passive" xml:space="preserve">
+    <value>战斗力+60%</value>
+  </data>
+  <data name="Profession_Princess_Passive" xml:space="preserve">
+    <value>身为公主在妓院接客时，派系营业额与派系声誉提升为10倍（仅影响模组的派系系统，不影响原版金钱与声望）</value>
+  </data>
+  <data name="Profession_Trainer_Passive" xml:space="preserve">
+    <value>战斗力+40%。怪物属性：与其交配的奴隶敏感度提升；猎手营地内奴隶逃跑前交配次数+4</value>
+  </data>
+  <data name="Profession_Hero_Passive" xml:space="preserve">
+    <value>战斗力+80%</value>
+  </data>
+  <data name="Profession_Brigand_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Thief_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Marauder_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Plunderer_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Warrior_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Hunter_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Priest_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_DarkPriest_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Alchemist_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物时25%几率触发斩杀且2倍战斗力触发必杀</value>
+  </data>
+  <data name="Profession_Knight_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物触发斩杀</value>
+  </data>
+  <data name="Profession_Assassin_Kill" xml:space="preserve">
+    <value>交配时，战斗力高于怪物触发斩杀</value>
+  </data>
+  <data name="Profession_Wizard_Kill" xml:space="preserve">
+    <value>交配时，25%几率斩杀房间内所有战斗力低于自己的怪物</value>
+  </data>
+  <data name="Profession_Witch_Kill" xml:space="preserve">
+    <value>交配时，50%几率斩杀房间内所有战斗力低于自己的怪物</value>
+  </data>
+  <data name="Profession_Paladin_Kill" xml:space="preserve">
+    <value>交配时，斩杀房间内所有战斗力低于自己的怪物</value>
+  </data>
+  <data name="Profession_Hero_Kill" xml:space="preserve">
+    <value>交配时，斩杀房间内所有战斗力低于自己的怪物</value>
+  </data>
+  <data name="Combat_KilledShort" xml:space="preserve">
+    <value>&lt;color=#E07369&gt;斩杀怪物&lt;/color&gt;</value>
+  </data>
+  <data name="State_CombatPower" xml:space="preserve">
+    <value>战斗力:</value>
+  </data>
+  <data name="State_MonsterPrice" xml:space="preserve">
+    <value>怪物价格:</value>
+  </data>
+  <data name="State_PriceRate" xml:space="preserve">
+    <value>价格率:</value>
+  </data>
+  <data name="Job_RemoveShieldRange" xml:space="preserve">
+    <value> 随机消除{1}-{2}名奴隶{0}点防护结界</value>
+  </data>
+  <data name="ItemName_HumanPheromone" xml:space="preserve">
+    <value>激素</value>
+  </data>
+  <data name="Job_ObtainItemRange" xml:space="preserve">
+    <value> 获得{0}-{1}个{2}</value>
+  </data>
+  <data name="Override_Trait108_Name" xml:space="preserve">
+    <value>疾病免疫</value>
+  </data>
+  <data name="Override_Trait108_Text" xml:space="preserve">
+    <value>她有着强健的血脉，总是健康活泼，精力充沛。&lt;BR&gt;她对性病具有绝对的免疫力。</value>
+  </data>
+  <data name="Override_Trait71_Name" xml:space="preserve">
+    <value>超凡魅力</value>
+  </data>
+  <data name="Override_Trait71_Tooltip" xml:space="preserve">
+    <value>她拥有着超凡脱俗的魅力。 &lt;BR&gt;放置在妓院时，营业额增加5〜10倍。</value>
+  </data>
+  <data name="Override_Item127_Text" xml:space="preserve">
+    <value>使用此道具后，持续时间内，交配时必定内射，且奴隶敏感度提升。&lt;BR&gt;持续时间为1天。</value>
+  </data>
+</root>
